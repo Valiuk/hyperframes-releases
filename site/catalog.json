@@ -11,7 +11,16 @@
    "name": "AE Kit",
    "desc": "Організатор проєкту: режими охоплення, групування за назвами, підпапки за форматами, сортування з урахуванням композицій.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-kit/AE-Kit-v1.0.0.zip",
+     "file": "AE-Kit-v1.0.0.zip",
+     "size": 29818
+    }
+   ]
   },
   {
    "id": "sync-lip",
@@ -20,7 +29,16 @@
    "name": "Sync Lip",
    "desc": "Ліпсинк через sync.so: паралельні черги, підготовка прекомпів за лейблами, рендер та імпорт назад у проєкт.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/sync-lip/Sync-Lip-v1.0.0.zip",
+     "file": "Sync-Lip-v1.0.0.zip",
+     "size": 59331
+    }
+   ]
   },
   {
    "id": "scribe-subs",
@@ -29,7 +47,16 @@
    "name": "Субтитри Scribe",
    "desc": "Транскрипція ElevenLabs Scribe з клікабельними таймкодами слів, переклад (Claude / DeepL) і маркери в AE.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/scribe-subs/AE-Transcribe-v1.0.0.zip",
+     "file": "AE-Transcribe-v1.0.0.zip",
+     "size": 49538
+    }
+   ]
   },
   {
    "id": "currency-fiddler",
@@ -38,7 +65,16 @@
    "name": "Currency Fiddler",
    "desc": "Знаходить шари з Digit Fiddler, редагує суми й валюту на місці, конвертує з округленням.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/currency-fiddler/Currency-Fiddler-v1.0.0.zip",
+     "file": "Currency-Fiddler-v1.0.0.zip",
+     "size": 32024
+    }
+   ]
   },
   {
    "id": "smart-rename",
@@ -47,7 +83,16 @@
    "name": "Smart Rename",
    "desc": "Перейменовує футаж за тим, що в кадрі, через Gemini API.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.1.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/smart-rename/Smart-Rename-v1.1.1.zip",
+     "file": "Smart-Rename-v1.1.1.zip",
+     "size": 30873
+    }
+   ]
   },
   {
    "id": "hf-elastic",
@@ -56,7 +101,16 @@
    "name": "Hyperframes Elastic",
    "desc": "Пружний ефект на основі ключів Position.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/hf-elastic/Hyperframes-Elastic-v1.0.0.zip",
+     "file": "Hyperframes-Elastic-v1.0.0.zip",
+     "size": 15998
+    }
+   ]
   },
   {
    "id": "asset-library",
@@ -65,7 +119,16 @@
    "name": "Бібліотека ассетів",
    "desc": "Свої композиції й футаж в одній бібліотеці для повторного використання, без навантаження на систему.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/asset-library/Hyperframes-Library-v1.0.0.zip",
+     "file": "Hyperframes-Library-v1.0.0.zip",
+     "size": 21599
+    }
+   ]
   },
   {
    "id": "spine-export",
@@ -74,7 +137,16 @@
    "name": "Spine Export",
    "desc": "Перегляд Spine-анімацій і експорт PNG-секвенцій прямо в AE — для слот-креативів.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/spine-export/Spine-Export-v1.0.0.zip",
+     "file": "Spine-Export-v1.0.0.zip",
+     "size": 345125
+    }
+   ]
   },
   {
    "id": "phone-insert",
@@ -83,7 +155,16 @@
    "name": "Вставка геймплею в телефон",
    "desc": "Вписує зовнішній шар (геймплей) у телефон на відео через corner pin.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "0.3.2",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.3.2.zip",
+     "file": "HF-Screen-Fit-v0.3.2.zip",
+     "size": 18798
+    }
+   ]
   },
   {
    "id": "split-screen",
@@ -92,7 +173,16 @@
    "name": "Split Screen",
    "desc": "Ділить кадр між двома шарами з роздільником, пресети пропорцій і перемикач місцями.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/split-screen/HF-Split-Screen-v1.0.0.zip",
+     "file": "HF-Split-Screen-v1.0.0.zip",
+     "size": 10481
+    }
+   ]
   },
   {
    "id": "ae-upscale",
@@ -101,7 +191,16 @@
    "name": "Upscale для AE",
    "desc": "Апскейл відео й зображень у проєкті: локальний або хмарний рушій на вибір.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-upscale/Hyperframes-Upscale-AE-v1.0.0.zip",
+     "file": "Hyperframes-Upscale-AE-v1.0.0.zip",
+     "size": 57348660
+    }
+   ]
   },
   {
    "id": "hidden-trim",
@@ -119,7 +218,16 @@
    "name": "AI-асистент для AE",
    "desc": "Асистент у дусі AE GPT, але на актуальних моделях.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ai-assistant/Hyperframes-Agent-v1.0.1.zip",
+     "file": "Hyperframes-Agent-v1.0.1.zip",
+     "size": 31915
+    }
+   ]
   },
   {
    "id": "iyo-spaces",
@@ -128,7 +236,16 @@
    "name": "iyo Spaces",
    "desc": "Завантажує файли з просторів spaces.iyo.gg прямо в проєкт After Effects.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.4.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/iyo-spaces/iyo-Spaces-v1.4.0.zip",
+     "file": "iyo-Spaces-v1.4.0.zip",
+     "size": 37021
+    }
+   ]
   },
   {
    "id": "propainter",
@@ -137,7 +254,16 @@
    "name": "Видалення об’єктів",
    "desc": "AI-видалення об’єктів з відео: ProPainter локально та MiniMax-Remover на вибір.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/propainter/HF-ProPainter-v1.0.0.zip",
+     "file": "HF-ProPainter-v1.0.0.zip",
+     "size": 21658
+    }
+   ]
   },
   {
    "id": "text-styles",
@@ -146,7 +272,16 @@
    "name": "Текстові стилі",
    "desc": "Велика бібліотека стилів тексту в один клік: обводки, тіні, 3D, градієнти, слот-стилі.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "0.17.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.1.zip",
+     "file": "HF-Text-Styles-v0.17.1.zip",
+     "size": 77208
+    }
+   ]
   },
   {
    "id": "remove-bg",
@@ -155,7 +290,16 @@
    "name": "Видалення фону",
    "desc": "Прибирає фон із графіки та футажу, з окремим режимом для плаского фону.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/remove-bg/HF-RemoveBG-v1.0.0.zip",
+     "file": "HF-RemoveBG-v1.0.0.zip",
+     "size": 9176
+    }
+   ]
   },
   {
    "id": "facecut",
@@ -164,7 +308,16 @@
    "name": "FaceCut",
    "desc": "Знаходить обличчя спікера й нарізає всі фрагменти з ним, навіть з кількох ракурсів.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/facecut/FaceCut-v1.0.0.zip",
+     "file": "FaceCut-v1.0.0.zip",
+     "size": 20293
+    }
+   ]
   },
   {
    "id": "phone-slot-spin",
@@ -182,7 +335,16 @@
    "name": "YT Fragment",
    "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін YT Fragment для After Effects. Окрема програма (.exe) — згодом.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.0.zip",
+     "file": "YT-Fragment-AE-v1.0.0.zip",
+     "size": 12459
+    }
+   ]
   },
   {
    "id": "hf-upscale",
