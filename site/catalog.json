@@ -7,7 +7,7 @@
   {
    "id": "ae-kit",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "AE Kit",
    "desc": "Організатор проєкту: режими охоплення, групування за назвами, підпапки за форматами, сортування з урахуванням композицій.",
    "link": "",
@@ -34,7 +34,7 @@
   {
    "id": "currency-fiddler",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Currency Fiddler",
    "desc": "Знаходить шари з Digit Fiddler, редагує суми й валюту на місці, конвертує з округленням.",
    "link": "",
@@ -43,7 +43,7 @@
   {
    "id": "smart-rename",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Smart Rename",
    "desc": "Перейменовує футаж за тим, що в кадрі, через Gemini API.",
    "link": "",
@@ -52,7 +52,7 @@
   {
    "id": "hf-elastic",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Hyperframes Elastic",
    "desc": "Пружний ефект на основі ключів Position.",
    "link": "",
@@ -61,7 +61,7 @@
   {
    "id": "asset-library",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Бібліотека ассетів",
    "desc": "Свої композиції й футаж в одній бібліотеці для повторного використання, без навантаження на систему.",
    "link": "",
@@ -70,7 +70,7 @@
   {
    "id": "spine-export",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Spine Export",
    "desc": "Перегляд Spine-анімацій і експорт PNG-секвенцій прямо в AE — для слот-креативів.",
    "link": "",
@@ -79,7 +79,7 @@
   {
    "id": "phone-insert",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Вставка геймплею в телефон",
    "desc": "Вписує зовнішній шар (геймплей) у телефон на відео через corner pin.",
    "link": "",
@@ -88,7 +88,7 @@
   {
    "id": "split-screen",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Split Screen",
    "desc": "Ділить кадр між двома шарами з роздільником, пресети пропорцій і перемикач місцями.",
    "link": "",
@@ -97,7 +97,7 @@
   {
    "id": "ae-upscale",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Upscale для AE",
    "desc": "Апскейл відео й зображень у проєкті: локальний або хмарний рушій на вибір.",
    "link": "",
@@ -115,7 +115,7 @@
   {
    "id": "ai-assistant",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "AI-асистент для AE",
    "desc": "Асистент у дусі AE GPT, але на актуальних моделях.",
    "link": "",
@@ -133,7 +133,7 @@
   {
    "id": "propainter",
    "kind": "ae",
-   "status": "beta",
+   "status": "release",
    "name": "Видалення об’єктів",
    "desc": "AI-видалення об’єктів з відео: ProPainter локально та MiniMax-Remover на вибір.",
    "link": "",
@@ -151,7 +151,7 @@
   {
    "id": "remove-bg",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "Видалення фону",
    "desc": "Прибирає фон із графіки та футажу, з окремим режимом для плаского фону.",
    "link": "",
@@ -160,7 +160,7 @@
   {
    "id": "facecut",
    "kind": "ae",
-   "status": "dev",
+   "status": "release",
    "name": "FaceCut",
    "desc": "Знаходить обличчя спікера й нарізає всі фрагменти з ним, навіть з кількох ракурсів.",
    "link": "",
@@ -178,7 +178,7 @@
   {
    "id": "yt-fragment",
    "kind": "app",
-   "status": "beta",
+   "status": "release",
    "name": "YT Fragment",
    "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту.",
    "link": "",
@@ -187,7 +187,7 @@
   {
    "id": "hf-upscale",
    "kind": "app",
-   "status": "dev",
+   "status": "release",
    "name": "HF Upscale",
    "desc": "Апскейл відео й фото для Windows: Real-ESRGAN, NVIDIA RTX VSR, SeedVR2, RIFE.",
    "link": "",
@@ -196,7 +196,7 @@
   {
    "id": "compressor",
    "kind": "app",
-   "status": "dev",
+   "status": "release",
    "name": "Стиснення відео",
    "desc": "Простий компресор відео на ffmpeg для Windows і Mac.",
    "link": "",
@@ -205,7 +205,7 @@
   {
    "id": "hronometr",
    "kind": "web",
-   "status": "dev",
+   "status": "release",
    "name": "Хронометр",
    "desc": "Озвучка ElevenLabs — фраза чи діалог — точно під потрібну тривалість.",
    "link": "",
