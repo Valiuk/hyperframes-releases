@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hyperframes — інструменти</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: studio release board, confident and tidy, a tool catalogue not a pitch
+   IDEA: an After Effects timeline — each tool is a layer, each release a keyframe
+   PICTURE: release timeline across the top, playhead at today, diamonds per version
+   COLOUR and TYPE: graphite / paper fields, AE label colours per tool, CTI blue playhead; Unbounded + Manrope
+   LAYOUT: title row, full-width timeline, filter bar, card grid; stacks at 600px */
+:root{color-scheme:light dark;--bg:light-dark(#f1f1ee,#131418);--panel:light-dark(#ffffff,#1c1d22);--line:light-dark(#dcdcd6,#2c2d34);--ink:light-dark(#15161a,#ececea);--mute:light-dark(#62636b,#9a9ba3);--cti:#2d8ceb;--chip:light-dark(#e6e6e1,#24252b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+h1,h2,h3{font-family:Unbounded,Manrope,sans-serif;font-weight:600;margin:0;text-wrap:balance}
+h1{font-size:clamp(28px,4.4vw,46px);line-height:1.05}
+h2{font-size:20px}
+.top{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:end;justify-content:space-between;margin-bottom:22px}
+.sub{color:var(--mute);margin:8px 0 0;max-width:62ch}
+.acts{display:flex;flex-wrap:wrap;gap:10px}
+.btn{font:600 15px Manrope,sans-serif;min-height:44px;padding:0 18px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.btn.pri{background:var(--cti);border-color:var(--cti);color:#fff}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.chipb:focus-visible{outline:3px solid var(--cti);outline-offset:2px}
+.btn[disabled]{opacity:.45;cursor:default}
+.tl{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.tlh{display:flex;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);font-size:14px;color:var(--mute)}
+.tlh b{color:var(--ink)}
+.fig{position:relative;min-height:340px}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.fig .empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--mute);padding:20px;text-align:center}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:28px 0 18px}
+.chipb{font:600 14px Manrope,sans-serif;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chipb[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chipb span{color:var(--mute);font-weight:500;margin-left:4px}
+.chipb[aria-pressed=true] span{color:inherit;opacity:.7}
+#q{flex:1 1 220px;font:16px Manrope,sans-serif;min-height:44px;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.ch{display:flex;gap:12px;align-items:flex-start}
+.sw{flex:none;width:14px;height:14px;border-radius:4px;margin-top:5px}
+.ch h3{font-size:17px;line-height:1.25;flex:1}
+.meta{display:flex;flex-wrap:wrap;gap:6px;font-size:13px}
+.tag{background:var(--chip);border-radius:6px;padding:2px 8px;white-space:nowrap}
+.tag.new{background:var(--cti);color:#fff}
+.tag.dev{color:var(--mute)}
+.card p{margin:0;color:var(--mute);font-size:15px}
+.ver{font-size:14px;white-space:nowrap}.ver b{font-family:Unbounded,sans-serif;font-weight:500}
+.cf{margin-top:auto;display:flex;flex-wrap:wrap;gap:8px;padding-top:6px}
+.cf .btn{min-height:40px;font-size:14px;padding:0 14px}
+details{font-size:14px}details summary{cursor:pointer;color:var(--mute);min-height:32px;display:flex;align-items:center}
+.hist{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:8px}
+.hist li{border-left:2px solid var(--line);padding-left:10px}
+.hist a{color:var(--cti)}
+.note{color:var(--mute);font-size:14px;margin-top:22px}
+.state{padding:40px 0;color:var(--mute);text-align:center}
+dialog{border:1px solid var(--line);border-radius:16px;background:var(--panel);color:var(--ink);padding:0;width:min(560px,94vw)}
+dialog::backdrop{background:rgb(0 0 0/.5)}
+dialog form{padding:22px;display:grid;gap:12px}
+label{display:grid;gap:4px;font-size:14px;font-weight:600}
+input,select,textarea{font:16px Manrope,sans-serif;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);min-height:44px}
+textarea{min-height:84px;resize:vertical}
+.row2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.dact{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:6px}
+.dact .del{margin-right:auto;color:#d94a4a}
+.err{color:#d94a4a;font-size:14px;min-height:1em}
+@media(max-width:600px){.row2{grid-template-columns:minmax(0,1fr)}.fig{min-height:300px}}
+@media(prefers-reduced-motion:no-preference){.card{animation:in .35s ease both}@keyframes in{from{opacity:0;transform:translateY(6px)}}}
+</style>
+</head>
+<body>
+<main class="band"><div class="wrap">
+  <div class="top">
+    <div>
+      <h1>Hyperframes — інструменти</h1>
+      <p class="sub" id="sub">Плагіни для After Effects, програми та веб-інструменти. Тут завжди остання версія кожного.</p>
+    </div>
+    <div class="acts">
+      <a class="btn pri" id="chan" href="#" hidden>Telegram-канал</a>
+    </div>
+  </div>
+
+  <section class="tl" aria-label="Таймлайн релізів">
+    <div class="tlh"><span>Таймлайн релізів</span><span id="tlinfo"></span></div>
+    <div class="fig" id="fig"><svg id="svg" role="img" aria-label="Релізи по часу"></svg><div class="empty" id="figEmpty">Завантаження…</div></div>
+  </section>
+
+  <div class="bar" id="bar">
+    <input id="q" type="search" placeholder="Пошук: назва чи опис" aria-label="Пошук">
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="state" id="state">Завантаження каталогу…</div>
+  <p class="note" id="upd"></p>
+</div></main>
+
+
+<script type="application/json" id="data">{"site": {"channel": "", "updated": "2026-11-20"}, "tools": [{"id": "ae-kit", "kind": "ae", "status": "dev", "name": "AE Kit", "desc": "Організатор проєкту: режими охоплення, групування за назвами, підпапки за форматами, сортування з урахуванням композицій.", "link": "", "releases": []}, {"id": "sync-lip", "kind": "ae", "status": "release", "name": "Sync Lip", "desc": "Ліпсинк через sync.so: паралельні черги, підготовка прекомпів за лейблами, рендер та імпорт назад у проєкт.", "link": "", "releases": []}, {"id": "scribe-subs", "kind": "ae", "status": "release", "name": "Субтитри Scribe", "desc": "Транскрипція ElevenLabs Scribe з клікабельними таймкодами слів, переклад (Claude / DeepL) і маркери в AE.", "link": "", "releases": []}, {"id": "currency-fiddler", "kind": "ae", "status": "dev", "name": "Currency Fiddler", "desc": "Знаходить шари з Digit Fiddler, редагує суми й валюту на місці, конвертує з округленням.", "link": "", "releases": []}, {"id": "smart-rename", "kind": "ae", "status": "dev", "name": "Smart Rename", "desc": "Перейменовує футаж за тим, що в кадрі, через Gemini API.", "link": "", "releases": []}, {"id": "hf-elastic", "kind": "ae", "status": "dev", "name": "Hyperframes Elastic", "desc": "Пружний ефект на основі ключів Position.", "link": "", "releases": []}, {"id": "asset-library", "kind": "ae", "status": "dev", "name": "Бібліотека ассетів", "desc": "Свої композиції й футаж в одній бібліотеці для повторного використання, без навантаження на систему.", "link": "", "releases": []}, {"id": "spine-export", "kind": "ae", "status": "dev", "name": "Spine Export", "desc": "Перегляд Spine-анімацій і експорт PNG-секвенцій прямо в AE — для слот-креативів.", "link": "", "releases": []}, {"id": "phone-insert", "kind": "ae", "status": "dev", "name": "Вставка геймплею в телефон", "desc": "Вписує зовнішній шар (геймплей) у телефон на відео через corner pin.", "link": "", "releases": []}, {"id": "split-screen", "kind": "ae", "status": "dev", "name": "Split Screen", "desc": "Ділить кадр між двома шарами з роздільником, пресети пропорцій і перемикач місцями.", "link": "", "releases": []}, {"id": "ae-upscale", "kind": "ae", "status": "dev", "name": "Upscale для AE", "desc": "Апскейл відео й зображень у проєкті: локальний або хмарний рушій на вибір.", "link": "", "releases": []}, {"id": "hidden-trim", "kind": "ae", "status": "dev", "name": "Обрізка прихованих шарів", "desc": "Обрізає частини шарів, повністю закриті шарами вище; можна ігнорувати шари за кольором лейбла.", "link": "", "releases": []}, {"id": "ai-assistant", "kind": "ae", "status": "dev", "name": "AI-асистент для AE", "desc": "Асистент у дусі AE GPT, але на актуальних моделях.", "link": "", "releases": []}, {"id": "iyo-spaces", "kind": "ae", "status": "release", "name": "iyo Spaces", "desc": "Завантажує файли з просторів spaces.iyo.gg прямо в проєкт After Effects.", "link": "", "releases": []}, {"id": "propainter", "kind": "ae", "status": "beta", "name": "Видалення об’єктів", "desc": "AI-видалення об’єктів з відео: ProPainter локально та MiniMax-Remover на вибір.", "link": "", "releases": []}, {"id": "text-styles", "kind": "ae", "status": "release", "name": "Текстові стилі", "desc": "Велика бібліотека стилів тексту в один клік: обводки, тіні, 3D, градієнти, слот-стилі.", "link": "", "releases": []}, {"id": "remove-bg", "kind": "ae", "status": "dev", "name": "Видалення фону", "desc": "Прибирає фон із графіки та футажу, з окремим режимом для плаского фону.", "link": "", "releases": []}, {"id": "facecut", "kind": "ae", "status": "dev", "name": "FaceCut", "desc": "Знаходить обличчя спікера й нарізає всі фрагменти з ним, навіть з кількох ракурсів.", "link": "", "releases": []}, {"id": "phone-slot-spin", "kind": "tpl", "status": "dev", "name": "Phone Slot Spin", "desc": "Шаблон слот-машини: перемикач скінів і сітки барабанів 3–6 × 3–5.", "link": "", "releases": []}, {"id": "yt-fragment", "kind": "app", "status": "beta", "name": "YT Fragment", "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту.", "link": "", "releases": []}, {"id": "hf-upscale", "kind": "app", "status": "dev", "name": "HF Upscale", "desc": "Апскейл відео й фото для Windows: Real-ESRGAN, NVIDIA RTX VSR, SeedVR2, RIFE.", "link": "", "releases": []}, {"id": "compressor", "kind": "app", "status": "dev", "name": "Стиснення відео", "desc": "Простий компресор відео на ffmpeg для Windows і Mac.", "link": "", "releases": []}, {"id": "hronometr", "kind": "web", "status": "dev", "name": "Хронометр", "desc": "Озвучка ElevenLabs — фраза чи діалог — точно під потрібну тривалість.", "link": "", "releases": []}, {"id": "dubl", "kind": "web", "status": "dev", "name": "Дубль", "desc": "Нодовий редактор промптів для AI-відео за референсом: стиль, камера, ракурси, нові герої й діалоги.", "link": "", "releases": []}, {"id": "video-finder", "kind": "web", "status": "release", "name": "Пошук відео", "desc": "Шукає відео на YouTube за тим, що видно в кадрі, через Gemini.", "link": "", "releases": []}, {"id": "chat-mockups", "kind": "web", "status": "release", "name": "Мокапи чатів", "desc": "Генератор мокапів Telegram-чату, а також постів із коментарями для Instagram і Facebook. Експорт у PNG.", "link": "", "releases": []}, {"id": "nodespace", "kind": "web", "status": "dev", "name": "Nodespace", "desc": "Нодовий простір на Gemini API: асистенти, генерація зображень і відео.", "link": "", "releases": []}, {"id": "magnific-iyo", "kind": "web", "status": "dev", "name": "Імпорт Magnific → iyo", "desc": "Переносить ноди Magnific Spaces разом із картинками та відео в spaces.iyo.gg.", "link": "", "releases": []}]}</script>
+<script>
+{
+const KINDS=[['all','Усе'],['ae','Плагіни AE'],['app','Програми'],['web','Веб-інструменти'],['tpl','Шаблони AE']];
+const KN=Object.fromEntries(KINDS);
+const ST={release:'Реліз',beta:'Бета',dev:'В розробці'};
+const LABELS=['#e24b4b','#e3c33c','#4fc6c6','#e57fb6','#a99be0','#e9a56b','#7fcfa0','#5b8fe6','#c98fd6','#b5c45a'];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const okUrl=u=>/^https?:\/\//i.test(String(u||''))?String(u):'';
+const hash=s=>{let h=0;for(const c of String(s))h=(h*31+c.charCodeAt(0))|0;return Math.abs(h)};
+const color=t=>LABELS[(t.color??hash(t.id))%LABELS.length];
+const fmt=d=>{const x=new Date(d);return isNaN(x)?'':x.toLocaleDateString('uk-UA',{day:'numeric',month:'short',year:'numeric'})};
+const rels=t=>(Array.isArray(t.releases)?t.releases:[]).filter(r=>r&&r.v).slice().sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
+const latest=t=>rels(t)[0];
+const isNew=r=>r&&r.date&&(Date.now()-new Date(r.date))<14*864e5;
+
+let tools=[],site={},kind='all',query='',edit=false,loaded=false;
+
+function chips(){
+  const n=k=>k==='all'?tools.filter(t=>!t.hidden||edit).length:tools.filter(t=>t.kind===k&&(!t.hidden||edit)).length;
+  const old=[...document.querySelectorAll('.chipb')];old.forEach(e=>e.remove());
+  $('bar').insertAdjacentHTML('afterbegin',KINDS.map(([k,l])=>`<button class="chipb" data-k="${k}" aria-pressed="${k===kind}">${l}<span>${n(k)}</span></button>`).join(''));
+}
+
+function render(){
+  chips();
+  const q=query.trim().toLowerCase();
+  const list=tools.filter(t=>(edit||!t.hidden)&&(kind==='all'||t.kind===kind)&&(!q||(t.name+' '+(t.desc||'')).toLowerCase().includes(q)))
+    .sort((a,b)=>String(latest(b)?.date||'').localeCompare(String(latest(a)?.date||''))||(a.order??999)-(b.order??999)||String(a.name).localeCompare(String(b.name)));
+  $('grid').innerHTML=list.map(t=>{
+    const r=latest(t),h=rels(t),link=okUrl(r?.link)||okUrl(t.link);
+    return `<article class="card" id="t-${esc(t.id)}">
+      <div class="ch"><span class="sw" style="background:${color(t)}"></span><h3>${esc(t.name)}</h3></div>
+      <div class="meta"><span class="tag">${esc(KN[t.kind]||'Інше')}</span>
+        <span class="tag ${t.status==='dev'?'dev':''}">${esc(ST[t.status]||ST.dev)}</span>
+        ${isNew(r)?'<span class="tag new">Нове</span>':''}${t.hidden?'<span class="tag dev">Приховано</span>':''}</div>
+      ${t.desc?`<p>${esc(t.desc)}</p>`:''}
+      ${r?`<div class="ver">Версія <b>${esc(r.v)}</b> · ${esc(fmt(r.date))}</div>`:''}
+      ${h.length?`<details><summary>Історія версій (${h.length})</summary><ul class="hist">${h.map(x=>`<li><b>${esc(x.v)}</b> · ${esc(fmt(x.date))}${x.notes?`<br>${esc(x.notes)}`:''}${okUrl(x.link)?` · <a href="${esc(okUrl(x.link))}" target="_blank" rel="noopener">пост</a>`:''}</li>`).join('')}</ul></details>`:''}
+      <div class="cf">${link?`<a class="btn pri" href="${esc(link)}" target="_blank" rel="noopener">Завантажити</a>`:`<button class="btn" disabled>Посилання скоро</button>`}
+</div>
+    </article>`}).join('');
+  $('state').hidden=loaded&&list.length>0;
+  if(loaded&&!list.length)$('state').textContent=tools.length?'Нічого не знайдено.':'Каталог порожній.';
+  const c=okUrl(site.channel);$('chan').hidden=!c;if(c)$('chan').href=c;
+  const total=tools.filter(t=>!t.hidden).length;
+  $('sub').textContent=`${total} інструментів: плагіни для After Effects, програми та веб-інструменти. Тут завжди остання версія кожного.`;
+  $('upd').textContent=site.updated?`Оновлено ${fmt(site.updated)}`:'';
+  draw();
+}
+
+const svg=$('svg');
+function draw(){
+  const W=svg.clientWidth,H=svg.clientHeight;if(!W)return;
+  const rows=tools.filter(t=>!t.hidden&&rels(t).length).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date))).slice(0,W<520?6:9);
+  const all=rows.flatMap(t=>rels(t).map(r=>+new Date(r.date))).filter(x=>!isNaN(x));
+  const fe=$('figEmpty');
+  if(!rows.length||!all.length){svg.innerHTML='';fe.hidden=false;fe.textContent=loaded?'Релізів ще немає — додай перший, і він з’явиться тут ключовим кадром.':'Завантаження…';$('tlinfo').textContent='';return}
+  fe.hidden=true;
+  const now=Date.now(),day=864e5;
+  let t0=Math.min(...all,now-120*day)-7*day,t1=now+10*day;
+  const lw=W<520?110:190,top=34,rh=Math.min(34,(H-top-14)/rows.length),x=d=>lw+(d-t0)/(t1-t0)*(W-lw-16);
+  const ink=getComputedStyle(document.body).color;
+  let s=`<rect x="0" y="0" width="${W}" height="${top}" fill="var(--chip)"/>`;
+  const m=new Date(t0);m.setDate(1);m.setMonth(m.getMonth()+1);
+  for(;+m<t1;m.setMonth(m.getMonth()+1)){const X=x(+m);s+=`<line x1="${X}" y1="${top-8}" x2="${X}" y2="${H}" stroke="var(--line)"/>`;if(X<W-40)s+=`<text x="${X+6}" y="21" font-size="12" fill="var(--mute)">${m.toLocaleDateString('uk-UA',{month:'short'})}</text>`}
+  rows.forEach((t,i)=>{
+    const y=top+i*rh,c=color(t),rs=rels(t),first=Math.min(...rs.map(r=>+new Date(r.date)));
+    s+=`<rect x="0" y="${y}" width="${W}" height="${rh}" fill="${i%2?'transparent':'var(--bg)'}" opacity=".6"/>`;
+    s+=`<rect x="10" y="${y+rh/2-5}" width="10" height="10" rx="2" fill="${c}"/>`;
+    const nm=t.name.length>(W<520?11:22)?t.name.slice(0,W<520?10:21)+'…':t.name;
+    s+=`<text x="28" y="${y+rh/2+4}" font-size="13" fill="${ink}">${esc(nm)}</text>`;
+    s+=`<rect x="${x(first)}" y="${y+5}" width="${Math.max(4,x(now)-x(first))}" height="${rh-10}" rx="3" fill="${c}" opacity=".28"/>`;
+    rs.forEach(r=>{const X=x(+new Date(r.date)),Y=y+rh/2,k=Math.min(7,rh/3);
+      s+=`<g data-go="${esc(t.id)}" style="cursor:pointer"><title>${esc(t.name)} ${esc(r.v)} · ${esc(fmt(r.date))}</title><path d="M${X} ${Y-k}L${X+k} ${Y}L${X} ${Y+k}L${X-k} ${Y}Z" fill="${c}" stroke="var(--panel)" stroke-width="1.5"/></g>`;
+      if(W>=520&&r===rs[0]&&X<W-60)s+=`<text x="${X+k+5}" y="${Y+4}" font-size="12" fill="${ink}">${esc(r.v)}</text>`});
+  });
+  const P=x(now);
+  s+=`<line x1="${P}" y1="${top-10}" x2="${P}" y2="${H}" stroke="var(--cti)" stroke-width="2"/><path d="M${P-6} ${top-14}h12v6l-6 6l-6-6Z" fill="var(--cti)"/>`;
+  svg.innerHTML=s;
+  const lr=tools.filter(t=>latest(t)).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date)))[0];
+  $('tlinfo').innerHTML=lr?`Останній: <b>${esc(lr.name)} ${esc(latest(lr).v)}</b>`:'';
+}
+const ro=new ResizeObserver(draw);ro.observe(svg);
+
+document.addEventListener('click',e=>{
+  const c=e.target.closest('.chipb');if(c){kind=c.dataset.k;render();return}
+  const g=e.target.closest('[data-go]');if(g){kind='all';query='';$('q').value='';render();document.getElementById('t-'+g.dataset.go)?.scrollIntoView({behavior:'smooth',block:'center'})}
+});
+$('q').addEventListener('input',e=>{query=e.target.value;render()});
+try{const d=JSON.parse($('data').textContent);site=d.site||{};tools=d.tools||[]}catch(e){tools=[]}
+loaded=true;render();
+}
+</script>
+</body>
+</html>
