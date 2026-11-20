@@ -15,6 +15,7 @@
 :root{color-scheme:light dark;--bg:light-dark(#f1f1ee,#131418);--panel:light-dark(#ffffff,#1c1d22);--line:light-dark(#dcdcd6,#2c2d34);--ink:light-dark(#15161a,#ececea);--mute:light-dark(#62636b,#9a9ba3);--cti:#2d8ceb;--chip:light-dark(#e6e6e1,#24252b)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,system-ui,sans-serif;overflow-x:clip}
 .band{padding:clamp(24px,4vw,56px) max(5vw,16px)}
 .wrap{max-width:1240px;margin:0 auto}
@@ -240,6 +241,7 @@ document.addEventListener('click',async e=>{
 $('editT').onclick=()=>{edit=!edit;$('editT').textContent=edit?'Готово':'Редагувати';render()};
 (async()=>{
   const user=await claude.use('user');let own=false;try{own=!!(await user?.isOwner())}catch(e){}
+  if(!user)return;
   const db=await claude.use('db');if(!db)return;
   ovRef=db.doc('overrides/main');
   ovRef.onSnapshot(s=>{const d=s.exists?s.data():{};ov={deleted:d.deleted||{},edits:d.edits||{}};apply();render()},()=>{});
