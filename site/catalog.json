@@ -20,6 +20,9 @@
      "file": "AE-Kit-v1.0.0.zip",
      "size": 29818
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -38,6 +41,9 @@
      "file": "Sync-Lip-v1.0.0.zip",
      "size": 59331
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -56,6 +62,9 @@
      "file": "AE-Transcribe-v1.0.0.zip",
      "size": 49538
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -74,6 +83,9 @@
      "file": "Currency-Fiddler-v1.0.0.zip",
      "size": 32024
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -92,6 +104,9 @@
      "file": "Smart-Rename-v1.1.1.zip",
      "size": 30873
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -110,6 +125,9 @@
      "file": "Hyperframes-Elastic-v1.0.0.zip",
      "size": 15998
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -128,6 +146,9 @@
      "file": "Hyperframes-Library-v1.0.0.zip",
      "size": 21599
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -146,6 +167,9 @@
      "file": "Spine-Export-v1.0.0.zip",
      "size": 345125
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -164,6 +188,9 @@
      "file": "HF-Screen-Fit-v0.3.2.zip",
      "size": 18798
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -182,6 +209,9 @@
      "file": "HF-Split-Screen-v1.0.0.zip",
      "size": 10481
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -200,6 +230,9 @@
      "file": "Hyperframes-Upscale-AE-v1.0.0.zip",
      "size": 57348660
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -209,7 +242,10 @@
    "name": "Обрізка прихованих шарів",
    "desc": "Обрізає частини шарів, повністю закриті шарами вище; можна ігнорувати шари за кольором лейбла.",
    "link": "",
-   "releases": []
+   "releases": [],
+   "hosts": [
+    "ae"
+   ]
   },
   {
    "id": "ai-assistant",
@@ -227,6 +263,9 @@
      "file": "Hyperframes-Agent-v1.0.1.zip",
      "size": 31915
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -245,6 +284,10 @@
      "file": "iyo-Spaces-v1.4.0.zip",
      "size": 37021
     }
+   ],
+   "hosts": [
+    "ae",
+    "pr"
    ]
   },
   {
@@ -263,6 +306,9 @@
      "file": "HF-ProPainter-v1.0.0.zip",
      "size": 21658
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -281,6 +327,9 @@
      "file": "HF-Text-Styles-v0.17.1.zip",
      "size": 77208
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -299,6 +348,9 @@
      "file": "HF-RemoveBG-v1.0.0.zip",
      "size": 9176
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -317,6 +369,9 @@
      "file": "FaceCut-v1.0.0.zip",
      "size": 20293
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -357,6 +412,10 @@
       }
      ]
     }
+   ],
+   "hosts": [
+    "ae",
+    "pr"
    ]
   },
   {
@@ -492,6 +551,9 @@
      "file": "Gemini-Translate-v1.0.0.zip",
      "size": 16098
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   },
   {
@@ -509,6 +571,9 @@
      "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/extract-layers/ExtractLayers-v1.0.0.zip",
      "size": 3337
     }
+   ],
+   "hosts": [
+    "ae"
    ]
   }
  ]
