@@ -386,10 +386,18 @@
    "id": "video-finder",
    "kind": "web",
    "status": "release",
-   "name": "Пошук відео",
+   "name": "Нишпорка — пошук відео",
    "desc": "Шукає відео на YouTube за тим, що видно в кадрі, через Gemini.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Один HTML-файл, відкривається в браузері. Потрібен свій ключ Gemini API.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v1.0.0.zip",
+     "size": 20025
+    }
+   ]
   },
   {
    "id": "chat-mockups",
@@ -398,7 +406,35 @@
    "name": "Мокапи чатів",
    "desc": "Генератор мокапів Telegram-чату, а також постів із коментарями для Instagram і Facebook. Експорт у PNG.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Три окремі HTML-генератори: Telegram, Instagram, Facebook. Експорт у PNG.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Telegram-Mockup-v1.0.0.zip",
+     "size": 1055493,
+     "files": [
+      {
+       "file": "Telegram-Mockup-v1.0.0.zip",
+       "size": 1055493,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Telegram-Mockup-v1.0.0.zip",
+       "label": "Telegram"
+      },
+      {
+       "file": "Instagram-Mockup-v1.0.0.zip",
+       "size": 45973,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Instagram-Mockup-v1.0.0.zip",
+       "label": "Instagram"
+      },
+      {
+       "file": "Facebook-Mockup-v1.0.0.zip",
+       "size": 46061,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Facebook-Mockup-v1.0.0.zip",
+       "label": "Facebook"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "nodespace",
@@ -433,6 +469,23 @@
      "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/gemini-translate/Gemini-Translate-v1.0.0.zip",
      "file": "Gemini-Translate-v1.0.0.zip",
      "size": 16098
+    }
+   ]
+  },
+  {
+   "id": "extract-layers",
+   "kind": "ae",
+   "status": "release",
+   "name": "Extract Layers",
+   "desc": "Скрипт: витягує шари з виділених прекомпів у поточну композицію, зберігаючи положення, трансформації, парентинг, трек-матти й таймінг.",
+   "link": "",
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Скрипт для After Effects (.jsx).",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/extract-layers/ExtractLayers-v1.0.0.zip",
+     "size": 3337
     }
    ]
   }
