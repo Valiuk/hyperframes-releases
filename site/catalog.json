@@ -339,10 +339,23 @@
     {
      "v": "1.0.0",
      "date": "2026-11-20",
-     "notes": "Плагін YT Fragment для After Effects. Окрема програма (.exe) — згодом.",
-     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.0.zip",
-     "file": "YT-Fragment-AE-v1.0.0.zip",
-     "size": 12459
+     "notes": "Програма для Windows 10/11: розпакуй і запусти «YT Fragment.exe». Плагін для After Effects — окремо, з install.bat.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip",
+     "size": 296439909,
+     "files": [
+      {
+       "label": "Програма для Windows",
+       "file": "YT.Fragment.zip",
+       "size": 296439909,
+       "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip"
+      },
+      {
+       "label": "Плагін AE",
+       "file": "YT-Fragment-AE-v1.0.0.zip",
+       "size": 12459,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.0.zip"
+      }
+     ]
     }
    ]
   },
