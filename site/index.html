@@ -68,6 +68,8 @@ textarea{min-height:84px;resize:vertical}
 .dact{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:6px}
 .dact .del{margin-right:auto;color:#d94a4a}
 .err{color:#d94a4a;font-size:14px;min-height:1em}
+.card.gone{opacity:.5}.btn.del{color:#d94a4a}
+.chk{display:flex;gap:10px;align-items:center;font-weight:500;min-height:36px}.chk input{width:20px;height:20px;min-height:0}
 @media(max-width:600px){.row2{grid-template-columns:minmax(0,1fr)}.fig{min-height:300px}}
 @media(prefers-reduced-motion:no-preference){.card{animation:in .35s ease both}@keyframes in{from{opacity:0;transform:translateY(6px)}}}
 </style>
@@ -80,7 +82,7 @@ textarea{min-height:84px;resize:vertical}
       <p class="sub" id="sub">Плагіни для After Effects, програми та веб-інструменти. Тут завжди остання версія кожного.</p>
     </div>
     <div class="acts">
-      <a class="btn pri" id="chan" href="#" hidden>Telegram-канал</a>
+      <button class="btn" id="editT" hidden>Редагувати</button>
     </div>
   </div>
 
@@ -96,6 +98,7 @@ textarea{min-height:84px;resize:vertical}
   <div class="state" id="state">Завантаження каталогу…</div>
   <p class="note" id="upd"></p>
 </div></main>
+<dialog id="dlg"><form id="frm" method="dialog"></form></dialog>
 
 
 <script type="application/json" id="data">{"site": {"channel": "", "updated": "2026-11-20"}, "tools": [{"id": "ae-kit", "kind": "ae", "status": "release", "name": "AE Kit", "desc": "Організатор проєкту: режими охоплення, групування за назвами, підпапки за форматами, сортування з урахуванням композицій.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-kit/AE-Kit-v1.0.0.zip", "file": "AE-Kit-v1.0.0.zip", "size": 29818}]}, {"id": "sync-lip", "kind": "ae", "status": "release", "name": "Sync Lip", "desc": "Ліпсинк через sync.so: паралельні черги, підготовка прекомпів за лейблами, рендер та імпорт назад у проєкт.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/sync-lip/Sync-Lip-v1.0.0.zip", "file": "Sync-Lip-v1.0.0.zip", "size": 59331}]}, {"id": "scribe-subs", "kind": "ae", "status": "release", "name": "Субтитри Scribe", "desc": "Транскрипція ElevenLabs Scribe з клікабельними таймкодами слів, переклад (Claude / DeepL) і маркери в AE.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/scribe-subs/AE-Transcribe-v1.0.0.zip", "file": "AE-Transcribe-v1.0.0.zip", "size": 49538}]}, {"id": "currency-fiddler", "kind": "ae", "status": "release", "name": "Currency Fiddler", "desc": "Знаходить шари з Digit Fiddler, редагує суми й валюту на місці, конвертує з округленням.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/currency-fiddler/Currency-Fiddler-v1.0.0.zip", "file": "Currency-Fiddler-v1.0.0.zip", "size": 32024}]}, {"id": "smart-rename", "kind": "ae", "status": "release", "name": "Smart Rename", "desc": "Перейменовує футаж за тим, що в кадрі, через Gemini API.", "link": "", "releases": [{"v": "1.1.1", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/smart-rename/Smart-Rename-v1.1.1.zip", "file": "Smart-Rename-v1.1.1.zip", "size": 30873}]}, {"id": "hf-elastic", "kind": "ae", "status": "release", "name": "Hyperframes Elastic", "desc": "Пружний ефект на основі ключів Position.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/hf-elastic/Hyperframes-Elastic-v1.0.0.zip", "file": "Hyperframes-Elastic-v1.0.0.zip", "size": 15998}]}, {"id": "asset-library", "kind": "ae", "status": "release", "name": "Бібліотека ассетів", "desc": "Свої композиції й футаж в одній бібліотеці для повторного використання, без навантаження на систему.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/asset-library/Hyperframes-Library-v1.0.0.zip", "file": "Hyperframes-Library-v1.0.0.zip", "size": 21599}]}, {"id": "spine-export", "kind": "ae", "status": "release", "name": "Spine Export", "desc": "Перегляд Spine-анімацій і експорт PNG-секвенцій прямо в AE — для слот-креативів.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/spine-export/Spine-Export-v1.0.0.zip", "file": "Spine-Export-v1.0.0.zip", "size": 345125}]}, {"id": "phone-insert", "kind": "ae", "status": "release", "name": "Вставка геймплею в телефон", "desc": "Вписує зовнішній шар (геймплей) у телефон на відео через corner pin.", "link": "", "releases": [{"v": "0.3.2", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.3.2.zip", "file": "HF-Screen-Fit-v0.3.2.zip", "size": 18798}]}, {"id": "split-screen", "kind": "ae", "status": "release", "name": "Split Screen", "desc": "Ділить кадр між двома шарами з роздільником, пресети пропорцій і перемикач місцями.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/split-screen/HF-Split-Screen-v1.0.0.zip", "file": "HF-Split-Screen-v1.0.0.zip", "size": 10481}]}, {"id": "ae-upscale", "kind": "ae", "status": "release", "name": "Upscale для AE", "desc": "Апскейл відео й зображень у проєкті: локальний або хмарний рушій на вибір.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-upscale/Hyperframes-Upscale-AE-v1.0.0.zip", "file": "Hyperframes-Upscale-AE-v1.0.0.zip", "size": 57348660}]}, {"id": "hidden-trim", "kind": "ae", "status": "dev", "name": "Обрізка прихованих шарів", "desc": "Обрізає частини шарів, повністю закриті шарами вище; можна ігнорувати шари за кольором лейбла.", "link": "", "releases": []}, {"id": "ai-assistant", "kind": "ae", "status": "release", "name": "AI-асистент для AE", "desc": "Асистент у дусі AE GPT, але на актуальних моделях.", "link": "", "releases": [{"v": "1.0.1", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ai-assistant/Hyperframes-Agent-v1.0.1.zip", "file": "Hyperframes-Agent-v1.0.1.zip", "size": 31915}]}, {"id": "iyo-spaces", "kind": "ae", "status": "release", "name": "iyo Spaces", "desc": "Завантажує файли з просторів spaces.iyo.gg прямо в проєкт After Effects.", "link": "", "releases": [{"v": "1.4.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/iyo-spaces/iyo-Spaces-v1.4.0.zip", "file": "iyo-Spaces-v1.4.0.zip", "size": 37021}]}, {"id": "propainter", "kind": "ae", "status": "release", "name": "Видалення об’єктів", "desc": "AI-видалення об’єктів з відео: ProPainter локально та MiniMax-Remover на вибір.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/propainter/HF-ProPainter-v1.0.0.zip", "file": "HF-ProPainter-v1.0.0.zip", "size": 21658}]}, {"id": "text-styles", "kind": "ae", "status": "release", "name": "Текстові стилі", "desc": "Велика бібліотека стилів тексту в один клік: обводки, тіні, 3D, градієнти, слот-стилі.", "link": "", "releases": [{"v": "0.17.1", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.1.zip", "file": "HF-Text-Styles-v0.17.1.zip", "size": 77208}]}, {"id": "remove-bg", "kind": "ae", "status": "release", "name": "Видалення фону", "desc": "Прибирає фон із графіки та футажу, з окремим режимом для плаского фону.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/remove-bg/HF-RemoveBG-v1.0.0.zip", "file": "HF-RemoveBG-v1.0.0.zip", "size": 9176}]}, {"id": "facecut", "kind": "ae", "status": "release", "name": "FaceCut", "desc": "Знаходить обличчя спікера й нарізає всі фрагменти з ним, навіть з кількох ракурсів.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/facecut/FaceCut-v1.0.0.zip", "file": "FaceCut-v1.0.0.zip", "size": 20293}]}, {"id": "phone-slot-spin", "kind": "tpl", "status": "dev", "name": "Phone Slot Spin", "desc": "Шаблон слот-машини: перемикач скінів і сітки барабанів 3–6 × 3–5.", "link": "", "releases": []}, {"id": "yt-fragment", "kind": "app", "status": "release", "name": "YT Fragment", "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Програма для Windows 10/11: розпакуй і запусти «YT Fragment.exe». Плагін для After Effects — окремо, з install.bat.", "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip", "size": 296439909, "files": [{"label": "Програма для Windows", "file": "YT.Fragment.zip", "size": 296439909, "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip"}, {"label": "Плагін AE", "file": "YT-Fragment-AE-v1.0.0.zip", "size": 12459, "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.0.zip"}]}]}, {"id": "hf-upscale", "kind": "app", "status": "release", "name": "HF Upscale", "desc": "Апскейл відео й фото для Windows: Real-ESRGAN, NVIDIA RTX VSR, SeedVR2, RIFE.", "link": "", "releases": []}, {"id": "compressor", "kind": "app", "status": "release", "name": "Стиснення відео", "desc": "Стискає відео до потрібного розміру: перетягни файли, вибери розмір, натисни «Стиснути». ffmpeg уже всередині.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Програма для Windows 10/11, один exe без встановлення.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/compressor/VideoCompressor-v1.0.0.zip", "file": "VideoCompressor-v1.0.0.zip", "size": 45311150}]}, {"id": "hronometr", "kind": "web", "status": "release", "name": "Хронометр", "desc": "Озвучка ElevenLabs — фраза чи діалог — точно під потрібну тривалість.", "link": "", "releases": []}, {"id": "dubl", "kind": "web", "status": "dev", "name": "Дубль", "desc": "Нодовий редактор промптів для AI-відео за референсом: стиль, камера, ракурси, нові герої й діалоги.", "link": "", "releases": []}, {"id": "video-finder", "kind": "web", "status": "release", "name": "Нишпорка — пошук відео", "desc": "Шукає відео на YouTube за тим, що видно в кадрі, через Gemini.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Один HTML-файл, відкривається в браузері. Потрібен свій ключ Gemini API.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v1.0.0.zip", "size": 20025}]}, {"id": "chat-mockups", "kind": "web", "status": "release", "name": "Мокапи чатів", "desc": "Генератор мокапів Telegram-чату, а також постів із коментарями для Instagram і Facebook. Експорт у PNG.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Три окремі HTML-генератори: Telegram, Instagram, Facebook. Експорт у PNG.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Telegram-Mockup-v1.0.0.zip", "size": 1055493, "files": [{"file": "Telegram-Mockup-v1.0.0.zip", "size": 1055493, "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Telegram-Mockup-v1.0.0.zip", "label": "Telegram"}, {"file": "Instagram-Mockup-v1.0.0.zip", "size": 45973, "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Instagram-Mockup-v1.0.0.zip", "label": "Instagram"}, {"file": "Facebook-Mockup-v1.0.0.zip", "size": 46061, "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Facebook-Mockup-v1.0.0.zip", "label": "Facebook"}]}]}, {"id": "nodespace", "kind": "web", "status": "dev", "name": "Nodespace", "desc": "Нодовий простір на Gemini API: асистенти, генерація зображень і відео.", "link": "", "releases": []}, {"id": "magnific-iyo", "kind": "web", "status": "dev", "name": "Імпорт Magnific → iyo", "desc": "Переносить ноди Magnific Spaces разом із картинками та відео в spaces.iyo.gg.", "link": "", "releases": []}, {"id": "gemini-translate", "kind": "ae", "status": "release", "name": "Gemini Translate", "desc": "Перекладає всі текстові шари композиції через Gemini API, з прекомпами і копією композиції під кожну мову. Скасовується одним Ctrl+Z.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/gemini-translate/Gemini-Translate-v1.0.0.zip", "file": "Gemini-Translate-v1.0.0.zip", "size": 16098}]}, {"id": "extract-layers", "kind": "ae", "status": "release", "name": "Extract Layers", "desc": "Скрипт: витягує шари з виділених прекомпів у поточну композицію, зберігаючи положення, трансформації, парентинг, трек-матти й таймінг.", "link": "", "releases": [{"v": "1.0.0", "date": "2026-11-20", "notes": "Скрипт для After Effects (.jsx).", "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/extract-layers/ExtractLayers-v1.0.0.zip", "size": 3337}]}]}</script>
@@ -115,16 +118,17 @@ const rels=t=>(Array.isArray(t.releases)?t.releases:[]).filter(r=>r&&r.v).slice(
 const latest=t=>rels(t)[0];
 const sz=n=>n?(n>1e6?(n/1e6).toFixed(n>1e7?0:1)+' МБ':Math.max(1,Math.round(n/1e3))+' КБ'):'';
 const dl=(r,link)=>{
-  const fs=Array.isArray(r?.files)&&r.files.length>1?r.files:null;
+  const fs=Array.isArray(r?.files)&&r.files.length>1?r.files.filter(f=>!(r._hide||[]).includes(f.file)):null;
+  if(fs&&!fs.length)return '';
   if(fs)return fs.map(f=>okUrl(f.link)?`<a class="btn pri" href="${esc(okUrl(f.link))}" target="_blank" rel="noopener">${esc(f.label||'Завантажити')}${f.size?` · ${sz(f.size)}`:''}</a>`:'').join('');
   return link?`<a class="btn pri" href="${esc(link)}" target="_blank" rel="noopener">Завантажити${r?.size?` · ${sz(r.size)}`:''}</a>`:`<button class="btn" disabled>Посилання скоро</button>`;
 };
 const isNew=r=>r&&r.date&&(Date.now()-new Date(r.date))<14*864e5;
 
-let tools=[],site={},kind='all',query='',edit=false,loaded=false;
+let tools=[],base=[],ov={deleted:{},edits:{}},site={},kind='all',query='',edit=false,loaded=false,ovRef=null,isOwner=false;
 
 function chips(){
-  const n=k=>k==='all'?tools.filter(t=>!t.hidden||edit).length:tools.filter(t=>t.kind===k&&(!t.hidden||edit)).length;
+  const n=k=>k==='all'?tools.filter(t=>edit||(!t.hidden&&!t._del)).length:tools.filter(t=>t.kind===k&&(edit||(!t.hidden&&!t._del))).length;
   const old=[...document.querySelectorAll('.chipb')];old.forEach(e=>e.remove());
   $('bar').insertAdjacentHTML('afterbegin',KINDS.map(([k,l])=>`<button class="chipb" data-k="${k}" aria-pressed="${k===kind}">${l}<span>${n(k)}</span></button>`).join(''));
 }
@@ -132,24 +136,23 @@ function chips(){
 function render(){
   chips();
   const q=query.trim().toLowerCase();
-  const list=tools.filter(t=>(edit||!t.hidden)&&(kind==='all'||t.kind===kind)&&(!q||(t.name+' '+(t.desc||'')).toLowerCase().includes(q)))
+  const list=tools.filter(t=>(edit||(!t.hidden&&!t._del))&&(kind==='all'||t.kind===kind)&&(!q||(t.name+' '+(t.desc||'')).toLowerCase().includes(q)))
     .sort((a,b)=>String(latest(b)?.date||'').localeCompare(String(latest(a)?.date||''))||(a.order??999)-(b.order??999)||String(a.name).localeCompare(String(b.name)));
   $('grid').innerHTML=list.map(t=>{
     const r=latest(t),h=rels(t),link=okUrl(r?.link)||okUrl(t.link);
-    return `<article class="card" id="t-${esc(t.id)}">
+    return `<article class="card${t._del?' gone':''}" id="t-${esc(t.id)}">
       <div class="ch"><span class="sw" style="background:${color(t)}"></span><h3>${esc(t.name)}</h3></div>
       <div class="meta"><span class="tag">${esc(KN[t.kind]||'Інше')}</span>
         <span class="tag ${t.status==='dev'?'dev':''}">${esc(ST[t.status]||ST.dev)}</span>
-        ${isNew(r)?'<span class="tag new">Нове</span>':''}${t.hidden?'<span class="tag dev">Приховано</span>':''}</div>
+        ${isNew(r)?'<span class="tag new">Нове</span>':''}${t.hidden?'<span class="tag dev">Приховано</span>':''}${t._del?'<span class="tag dev">Видалено</span>':''}</div>
       ${t.desc?`<p>${esc(t.desc)}</p>`:''}
       ${r?`<div class="ver">Версія <b>${esc(r.v)}</b> · ${esc(fmt(r.date))}</div>`:''}
       ${h.length?`<details><summary>Історія версій (${h.length})</summary><ul class="hist">${h.map(x=>`<li><b>${esc(x.v)}</b> · ${esc(fmt(x.date))}${x.notes?`<br>${esc(x.notes)}`:''}${okUrl(x.link)?` · <a href="${esc(okUrl(x.link))}" target="_blank" rel="noopener">пост</a>`:''}</li>`).join('')}</ul></details>`:''}
-      <div class="cf">${dl(r,link)}</div>
+      <div class="cf">${t._del&&edit?'':dl(r,link)}${edit?(t._del?`<button class="btn" data-undo="${esc(t.id)}">Повернути</button>`:`<button class="btn" data-ed="${esc(t.id)}">Змінити</button><button class="btn del" data-del="${esc(t.id)}">Видалити</button>`):''}</div>
     </article>`}).join('');
   $('state').hidden=loaded&&list.length>0;
   if(loaded&&!list.length)$('state').textContent=tools.length?'Нічого не знайдено.':'Каталог порожній.';
-  const c=okUrl(site.channel);$('chan').hidden=!c;if(c)$('chan').href=c;
-  const total=tools.filter(t=>!t.hidden).length;
+  const total=tools.filter(t=>!t.hidden&&!t._del).length;
   $('sub').textContent=`${total} інструментів: плагіни для After Effects, програми та веб-інструменти. Тут завжди остання версія кожного.`;
   $('upd').textContent=site.updated?`Оновлено ${fmt(site.updated)}`:'';
   draw();
@@ -158,7 +161,7 @@ function render(){
 const svg=$('svg');
 function draw(){
   const W=svg.clientWidth,H=svg.clientHeight;if(!W)return;
-  const rows=tools.filter(t=>!t.hidden&&rels(t).length).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date))).slice(0,W<520?6:9);
+  const rows=tools.filter(t=>!t.hidden&&!t._del&&rels(t).length).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date))).slice(0,W<520?6:9);
   const all=rows.flatMap(t=>rels(t).map(r=>+new Date(r.date))).filter(x=>!isNaN(x));
   const fe=$('figEmpty');
   if(!rows.length||!all.length){svg.innerHTML='';fe.hidden=false;fe.textContent=loaded?'Релізів ще немає — додай перший, і він з’явиться тут ключовим кадром.':'Завантаження…';$('tlinfo').textContent='';return}
@@ -184,7 +187,7 @@ function draw(){
   const P=x(now);
   s+=`<line x1="${P}" y1="${top-10}" x2="${P}" y2="${H}" stroke="var(--cti)" stroke-width="2"/><path d="M${P-6} ${top-14}h12v6l-6 6l-6-6Z" fill="var(--cti)"/>`;
   svg.innerHTML=s;
-  const lr=tools.filter(t=>latest(t)).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date)))[0];
+  const lr=tools.filter(t=>!t._del&&!t.hidden&&latest(t)).sort((a,b)=>String(latest(b).date).localeCompare(String(latest(a).date)))[0];
   $('tlinfo').innerHTML=lr?`Останній: <b>${esc(lr.name)} ${esc(latest(lr).v)}</b>`:'';
 }
 const ro=new ResizeObserver(draw);ro.observe(svg);
@@ -194,8 +197,51 @@ document.addEventListener('click',e=>{
   const g=e.target.closest('[data-go]');if(g){kind='all';query='';$('q').value='';render();document.getElementById('t-'+g.dataset.go)?.scrollIntoView({behavior:'smooth',block:'center'})}
 });
 $('q').addEventListener('input',e=>{query=e.target.value;render()});
-try{const d=JSON.parse($('data').textContent);site=d.site||{};tools=d.tools||[]}catch(e){tools=[]}
-loaded=true;render();
+try{const d=JSON.parse($('data').textContent);site=d.site||{};base=d.tools||[]}catch(e){base=[]}
+function apply(){
+  tools=base.map(t=>{const e=ov.edits?.[t.id]||{};const c={...t,...e};delete c.hideFiles;
+    if(e.hideFiles&&c.releases?.[0]){c.releases=[{...latest(c),_hide:e.hideFiles},...rels(c).slice(1)]}
+    if(ov.deleted?.[t.id])c._del=true;return c});
+}
+apply();loaded=true;render();
+
+const dlg=$('dlg'),frm=$('frm');
+async function save(next){const prev=ov;ov=next;apply();render();
+  try{await ovRef.set(next)}catch(e){ov=prev;apply();render();throw e}}
+function editForm(t){
+  const r=latest(t),fs=Array.isArray(r?.files)&&r.files.length>1?r.files:[];
+  const hidden=ov.edits?.[t.id]?.hideFiles||[];
+  frm.innerHTML=`<h2>${esc(t.name)}</h2>
+  <label>Назва<input name="name" required value="${esc(t.name)}"></label>
+  <div class="row2"><label>Тип<select name="kind">${KINDS.slice(1).map(([k,l])=>`<option value="${k}" ${t.kind===k?'selected':''}>${l}</option>`).join('')}</select></label>
+  <label>Статус<select name="status">${Object.entries(ST).map(([k,l])=>`<option value="${k}" ${t.status===k?'selected':''}>${l}</option>`).join('')}</select></label></div>
+  <label>Опис<textarea name="desc">${esc(t.desc)}</textarea></label>
+  ${fs.length?`<div><b style="font-size:14px">Кнопки завантаження</b>${fs.map((f,i)=>`<label class="chk"><input type="checkbox" name="f${i}" ${hidden.includes(f.file)?'':'checked'}> ${esc(f.label||f.file)}</label>`).join('')}</div>`:''}
+  <label class="chk"><input type="checkbox" name="hidden" ${t.hidden?'checked':''}> Приховати від відвідувачів</label>
+  <div class="err" id="ferr"></div>
+  <div class="dact"><button type="button" class="btn" id="fcan">Скасувати</button><button type="submit" class="btn pri">Зберегти</button></div>`;
+  $('fcan').onclick=()=>dlg.close();
+  frm.onsubmit=async e=>{e.preventDefault();const f=new FormData(frm);
+    const ed={name:String(f.get('name')).trim(),kind:f.get('kind'),status:f.get('status'),desc:String(f.get('desc')).trim(),hidden:!!f.get('hidden')};
+    if(fs.length)ed.hideFiles=fs.filter((x,i)=>!f.get('f'+i)).map(x=>x.file);
+    try{await save({...ov,edits:{...ov.edits,[t.id]:ed}});dlg.close()}catch(err){$('ferr').textContent='Не вдалося зберегти. Спробуй ще раз.'}};
+  dlg.showModal();
+}
+document.addEventListener('click',async e=>{
+  if(!edit)return;
+  const d=e.target.closest('[data-del]');if(d){if(!d.dataset.c){d.dataset.c=1;d.textContent='Точно видалити?';return}
+    try{await save({...ov,deleted:{...ov.deleted,[d.dataset.del]:true}})}catch(err){d.textContent='Помилка'}return}
+  const u=e.target.closest('[data-undo]');if(u){const del={...ov.deleted};delete del[u.dataset.undo];try{await save({...ov,deleted:del})}catch(err){}return}
+  const ed=e.target.closest('[data-ed]');if(ed){editForm(tools.find(t=>t.id===ed.dataset.ed))}
+});
+$('editT').onclick=()=>{edit=!edit;$('editT').textContent=edit?'Готово':'Редагувати';render()};
+(async()=>{
+  const user=await claude.use('user');let own=false;try{own=!!(await user?.isOwner())}catch(e){}
+  const db=await claude.use('db');if(!db)return;
+  ovRef=db.doc('overrides/main');
+  ovRef.onSnapshot(s=>{const d=s.exists?s.data():{};ov={deleted:d.deleted||{},edits:d.edits||{}};apply();render()},()=>{});
+  if(own){isOwner=true;$('editT').hidden=false}
+})();
 }
 </script>
 </body>

@@ -15,3 +15,7 @@
 4. У `site/catalog.json` додати в `releases` інструмента `{v, date (YYYY-MM-DD), notes, link}`; поставити статус `release`; оновити `site.updated`. Новий інструмент — новий об'єкт у `tools` (`kind`: ae | app | web | tpl).
 5. `cd site && python3 build.py`, опублікувати `site/index.html` в артефакт (publish_files, slug вище, mode patch).
 6. Закомітити й запушити зміни в цей репозиторій.
+
+## Правки Івана на сайті
+Власник редагує каталог прямо на сторінці (кнопка «Редагувати»): зміни лежать у базі артефакту, документ `overrides/main` = `{deleted:{id:true}, edits:{id:{name,kind,status,desc,hidden,hideFiles:[file]}}}`. Відвідувачі, що увійшли в Claude, бачать їх одразу; вбудований у HTML каталог — ні.
+Перед кожним оновленням сайту: прочитати `overrides/main` (db_get), перенести правки в `site/catalog.json` (видалені — прибрати з `tools`), закомітити, потім очистити документ (db_write set `{deleted:{},edits:{}}`) і опублікувати сторінку.
