@@ -417,6 +417,24 @@
    "desc": "Переносить ноди Magnific Spaces разом із картинками та відео в spaces.iyo.gg.",
    "link": "",
    "releases": []
+  },
+  {
+   "id": "gemini-translate",
+   "kind": "ae",
+   "status": "release",
+   "name": "Gemini Translate",
+   "desc": "Перекладає всі текстові шари композиції через Gemini API, з прекомпами і копією композиції під кожну мову. Скасовується одним Ctrl+Z.",
+   "link": "",
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/gemini-translate/Gemini-Translate-v1.0.0.zip",
+     "file": "Gemini-Translate-v1.0.0.zip",
+     "size": 16098
+    }
+   ]
   }
  ]
 }
