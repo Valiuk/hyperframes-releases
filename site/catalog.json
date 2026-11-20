@@ -373,9 +373,18 @@
    "kind": "app",
    "status": "release",
    "name": "Стиснення відео",
-   "desc": "Простий компресор відео на ffmpeg для Windows і Mac.",
+   "desc": "Стискає відео до потрібного розміру: перетягни файли, вибери розмір, натисни «Стиснути». ffmpeg уже всередині.",
    "link": "",
-   "releases": []
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Програма для Windows 10/11, один exe без встановлення.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/compressor/VideoCompressor-v1.0.0.zip",
+     "file": "VideoCompressor-v1.0.0.zip",
+     "size": 45311150
+    }
+   ]
   },
   {
    "id": "hronometr",
