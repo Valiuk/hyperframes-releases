@@ -1,7 +1,7 @@
 {
  "site": {
   "channel": "",
-  "updated": "2026-11-20"
+  "updated": "2026-11-21"
  },
  "tools": [
   {
@@ -177,9 +177,17 @@
    "kind": "ae",
    "status": "release",
    "name": "Вставка геймплею в телефон",
-   "desc": "Вписує зовнішній шар (геймплей) у телефон на відео через corner pin.",
+   "desc": "Вписує геймплей у телефон на відео через corner pin: світло, блік, відображення, світіння на руку, камера-матч і motion blur.",
    "link": "",
    "releases": [
+    {
+     "v": "0.4.1",
+     "date": "2026-11-21",
+     "notes": "Камера-матч (м'якість, зерно, насиченість, баланс білого), motion blur від піна, затемнення від нахилу, маска світіння, розумний bloom для світлих інтерфейсів. Швидка збірка й запікання авто-значень без зависань. В архіві install.bat.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.4.1.zip",
+     "file": "HF-Screen-Fit-v0.4.1.zip",
+     "size": 20974
+    },
     {
      "v": "0.3.2",
      "date": "2026-11-20",
@@ -231,18 +239,6 @@
      "size": 57348660
     }
    ],
-   "hosts": [
-    "ae"
-   ]
-  },
-  {
-   "id": "hidden-trim",
-   "kind": "ae",
-   "status": "dev",
-   "name": "Обрізка прихованих шарів",
-   "desc": "Обрізає частини шарів, повністю закриті шарами вище; можна ігнорувати шари за кольором лейбла.",
-   "link": "",
-   "releases": [],
    "hosts": [
     "ae"
    ]
@@ -375,15 +371,6 @@
    ]
   },
   {
-   "id": "phone-slot-spin",
-   "kind": "tpl",
-   "status": "dev",
-   "name": "Phone Slot Spin",
-   "desc": "Шаблон слот-машини: перемикач скінів і сітки барабанів 3–6 × 3–5.",
-   "link": "",
-   "releases": []
-  },
-  {
    "id": "yt-fragment",
    "kind": "app",
    "status": "release",
@@ -455,15 +442,6 @@
    "releases": []
   },
   {
-   "id": "dubl",
-   "kind": "web",
-   "status": "dev",
-   "name": "Дубль",
-   "desc": "Нодовий редактор промптів для AI-відео за референсом: стиль, камера, ракурси, нові герої й діалоги.",
-   "link": "",
-   "releases": []
-  },
-  {
    "id": "video-finder",
    "kind": "web",
    "status": "release",
@@ -516,24 +494,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "nodespace",
-   "kind": "web",
-   "status": "dev",
-   "name": "Nodespace",
-   "desc": "Нодовий простір на Gemini API: асистенти, генерація зображень і відео.",
-   "link": "",
-   "releases": []
-  },
-  {
-   "id": "magnific-iyo",
-   "kind": "web",
-   "status": "dev",
-   "name": "Імпорт Magnific → iyo",
-   "desc": "Переносить ноди Magnific Spaces разом із картинками та відео в spaces.iyo.gg.",
-   "link": "",
-   "releases": []
   },
   {
    "id": "gemini-translate",
