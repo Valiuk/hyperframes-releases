@@ -24,7 +24,7 @@
 - Сервер читає лише catalog.json; архіви качає браузер, редіректи GitHub дозволяти не треба.
 - Додаткові файли каталогу: поле `"include": ["https://raw.githubusercontent.com/Valiuk/hyperframes-releases/main/<файл>.json"]`, до 10, лише з цього репо.
 - Історія версій: `releases[{version,date,notes,downloads}]` — уже генерується build.py.
-- Відео-пояснення: коли будуть для плагінів — додати в публічний каталог поле `video` з абсолютним https-URL (напр. raw.githubusercontent.com/.../site/videos/<id>.mp4) і сказати Івану повідомити Obriy.
+- Відео-пояснення: Obriy показує кнопку «Дивитися відео» з поля `video: {url,label}` (відкриває в новій вкладці). raw.githubusercontent віддає mp4 як octet-stream (качається, не грає), тому відео йдуть через GitHub Pages: коли Pages увімкнено, `site.video_base` у site/catalog.json = `https://valiuk.github.io/hyperframes-releases`, і build.py сам додає `video` для інструментів з полем `video`.
 
 ## Шаблони AE: слоти для Phone Slot Spin (kind `tpl`)
 - Картки: `phone-slot-spin` (скрипти шаблону), `slot-spin-plan` (Конструктор прокрутів + apply_spin_plan.jsx), `slot-<гра>` — по одній на слот.

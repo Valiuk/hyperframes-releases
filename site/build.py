@@ -30,6 +30,7 @@ for t in d['tools']:
       'description':t.get('desc',''),'hosts':[HOST[h] for h in t.get('hosts',[])],
       'version':r['v'],'date':r.get('date'),'notes':r.get('notes',''),
       'installer':installer,'warning':t.get('warn'),'downloads':dls,
+      **({'video':{'url':d['site']['video_base'].rstrip('/')+'/site/'+t['video'],'label':'Як працює'}} if t.get('video') and d['site'].get('video_base') else {}),
       'releases':[{'version':x['v'],'date':x.get('date'),'notes':x.get('notes',''),'downloads':dl_of(x)} for x in rs if dl_of(x)]})
 pub={'schema':1,'name':'Hyperframes — інструменти','updated':d['site'].get('updated'),
      'page':'https://claude.ai/artifact/LkP7XP5o5kyAjJY2CzoPMj','tools':out}
