@@ -121,8 +121,10 @@
     // ---------------- 3. Slot: барабани + нуль, що їх крутить ----------------
     var slot = proj.items.addComp("Slot", W, H, 1, DUR, FPS); slot.parentFolder = fComps;
     var nul = slot.layers.addNull(); nul.name = "Null 2"; nul.enabled = false;
-    var nOff = fx(nul, "ADBE Offset", "Offset"); var shift = nOff.property("ADBE Offset-0001");
+    // спершу всі ефекти, потім посилання: додавання ефекту робить старі посилання недійсними
+    fx(nul, "ADBE Offset", "Offset");
     slider(nul, "Delay", 0.1);
+    var shift = nul.property("ADBE Effect Parade").property("Offset").property("ADBE Offset-0001");
     var Y0 = CH / 2;
     shift.setValue([CW / 2, Y0]);
     var spins = [[1.0, 1.0, 15, 0.6], [4.0, 1.0, 12, 0.6], [7.0, 2.0, 24, 0.8]];   // старт, тривалість, рядів, пік
