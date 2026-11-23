@@ -33,3 +33,4 @@
 - Новий слот: символи/фон/лого від Івана → `tools/slots/` (frames.py малює тематичну рамку, якщо своєї немає) → zip → таблиця символів → запис у catalog.json → оновити Конструктор (SLOTS) і архів slot-spin-plan.
 - Поля картки: `guide` — кроки «Як користуватися»; `symbols: {img, count}` — таблиця символів (файл публікується разом з index.html як `slots/<id>.webp`). Картки з `symbols` не показуються на таймлайні.
 - Повний шаблон .aep (1,2 ГБ) — у GitHub Releases, тег `phone-slot-spin-v1.0.0`, файл `phone.slot.spin.v1.converted.folder.zip`; на картці `phone-slot-spin` першою кнопкою. Іван хоче, щоб для слотів великий шаблон був не потрібен — основний шлях build_slot.jsx.
+- Вбудовані ігри шаблону (19 шт., Pragmatic Play): code `P01..P19`, витягнуті з PSD шаблону (`tools/slots/extract_builtin.py` → `builtin_build.py`; індекс шару PSD: слоти 1..15 → 20-слот, 16→3, 17→2, 18→1, 19→0). По 9 символів. Book of Ra / Mystic Fortune — окремі слоти, вже додані раніше.

@@ -628,7 +628,7 @@
      "notes": "Працює з проєктами, зібраними build_slot.jsx, і з повним шаблоном. Конструктор з усіма слотами, скрипт для AE і приклад.",
      "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.1.0.zip",
      "file": "HF-Spin-Plan-v1.1.0.zip",
-     "size": 367448
+     "size": 859329
     }
    ],
    "hosts": [
@@ -964,6 +964,595 @@
      "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.1.0.zip",
      "file": "HF-Slot-SunOfEgypt-v1.1.0.zip",
      "size": 3000303
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-big-bass-bonanza",
+   "kind": "tpl",
+   "status": "release",
+   "order": 30,
+   "name": "Слот: Big Bass Bonanza",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/big-bass-bonanza.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-big-bass-bonanza/HF-Slot-BigBassBonanza-v1.1.0.zip",
+     "file": "HF-Slot-BigBassBonanza-v1.1.0.zip",
+     "size": 6087605
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-buffalo-king",
+   "kind": "tpl",
+   "status": "release",
+   "order": 31,
+   "name": "Слот: Buffalo King",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/buffalo-king.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-buffalo-king/HF-Slot-BuffaloKing-v1.1.0.zip",
+     "file": "HF-Slot-BuffaloKing-v1.1.0.zip",
+     "size": 8973083
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-cowboy-coins",
+   "kind": "tpl",
+   "status": "release",
+   "order": 32,
+   "name": "Слот: Cowboy Coins",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/cowboy-coins.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-cowboy-coins/HF-Slot-CowboyCoins-v1.1.0.zip",
+     "file": "HF-Slot-CowboyCoins-v1.1.0.zip",
+     "size": 13863918
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-da-vincis-treasure",
+   "kind": "tpl",
+   "status": "release",
+   "order": 33,
+   "name": "Слот: Da Vinci's Treasure",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/da-vincis-treasure.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-da-vincis-treasure/HF-Slot-DaVincisTreasure-v1.1.0.zip",
+     "file": "HF-Slot-DaVincisTreasure-v1.1.0.zip",
+     "size": 13269048
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-fire-stampede",
+   "kind": "tpl",
+   "status": "release",
+   "order": 34,
+   "name": "Слот: Fire Stampede",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/fire-stampede.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fire-stampede/HF-Slot-FireStampede-v1.1.0.zip",
+     "file": "HF-Slot-FireStampede-v1.1.0.zip",
+     "size": 9963570
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-gates-of-olympus",
+   "kind": "tpl",
+   "status": "release",
+   "order": 35,
+   "name": "Слот: Gates of Olympus",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/gates-of-olympus.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus/HF-Slot-GatesOfOlympus-v1.1.0.zip",
+     "file": "HF-Slot-GatesOfOlympus-v1.1.0.zip",
+     "size": 12233120
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-gold-rush",
+   "kind": "tpl",
+   "status": "release",
+   "order": 36,
+   "name": "Слот: Gold Rush",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/gold-rush.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gold-rush/HF-Slot-GoldRush-v1.1.0.zip",
+     "file": "HF-Slot-GoldRush-v1.1.0.zip",
+     "size": 14350154
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-great-rhino",
+   "kind": "tpl",
+   "status": "release",
+   "order": 37,
+   "name": "Слот: Great Rhino",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/great-rhino.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-great-rhino/HF-Slot-GreatRhino-v1.1.0.zip",
+     "file": "HF-Slot-GreatRhino-v1.1.0.zip",
+     "size": 19502884
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-madame-destiny",
+   "kind": "tpl",
+   "status": "release",
+   "order": 38,
+   "name": "Слот: Madame Destiny",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/madame-destiny.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-madame-destiny/HF-Slot-MadameDestiny-v1.1.0.zip",
+     "file": "HF-Slot-MadameDestiny-v1.1.0.zip",
+     "size": 18988632
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-sugar-rush",
+   "kind": "tpl",
+   "status": "release",
+   "order": 39,
+   "name": "Слот: Sugar Rush",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/sugar-rush.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sugar-rush/HF-Slot-SugarRush-v1.1.0.zip",
+     "file": "HF-Slot-SugarRush-v1.1.0.zip",
+     "size": 11054400
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-sweet-bonanza",
+   "kind": "tpl",
+   "status": "release",
+   "order": 40,
+   "name": "Слот: Sweet Bonanza",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/sweet-bonanza.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza/HF-Slot-SweetBonanza-v1.1.0.zip",
+     "file": "HF-Slot-SweetBonanza-v1.1.0.zip",
+     "size": 14077156
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-the-dog-house-megaways",
+   "kind": "tpl",
+   "status": "release",
+   "order": 41,
+   "name": "Слот: The Dog House Megaways",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/the-dog-house-megaways.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-the-dog-house-megaways/HF-Slot-TheDogHouseMegaways-v1.1.0.zip",
+     "file": "HF-Slot-TheDogHouseMegaways-v1.1.0.zip",
+     "size": 12513231
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-wolf-gold",
+   "kind": "tpl",
+   "status": "release",
+   "order": 42,
+   "name": "Слот: Wolf Gold",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/wolf-gold.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-wolf-gold/HF-Slot-WolfGold-v1.1.0.zip",
+     "file": "HF-Slot-WolfGold-v1.1.0.zip",
+     "size": 6337042
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-lucky-dragons",
+   "kind": "tpl",
+   "status": "release",
+   "order": 43,
+   "name": "Слот: Lucky Dragons",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/lucky-dragons.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-lucky-dragons/HF-Slot-LuckyDragons-v1.1.0.zip",
+     "file": "HF-Slot-LuckyDragons-v1.1.0.zip",
+     "size": 7431215
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-3-genie-wishes",
+   "kind": "tpl",
+   "status": "release",
+   "order": 44,
+   "name": "Слот: 3 Genie Wishes",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/3-genie-wishes.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-3-genie-wishes/HF-Slot-3GenieWishes-v1.1.0.zip",
+     "file": "HF-Slot-3GenieWishes-v1.1.0.zip",
+     "size": 18367961
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-gates-of-olympus-1000",
+   "kind": "tpl",
+   "status": "release",
+   "order": 45,
+   "name": "Слот: Gates of Olympus 1000",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/gates-of-olympus-1000.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus-1000/HF-Slot-GatesOfOlympus1000-v1.1.0.zip",
+     "file": "HF-Slot-GatesOfOlympus1000-v1.1.0.zip",
+     "size": 12673510
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-sweet-bonanza-1000",
+   "kind": "tpl",
+   "status": "release",
+   "order": 46,
+   "name": "Слот: Sweet Bonanza 1000",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/sweet-bonanza-1000.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza-1000/HF-Slot-SweetBonanza1000-v1.1.0.zip",
+     "file": "HF-Slot-SweetBonanza1000-v1.1.0.zip",
+     "size": 14339047
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-fruit-party",
+   "kind": "tpl",
+   "status": "release",
+   "order": 47,
+   "name": "Слот: Fruit Party",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/fruit-party.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fruit-party/HF-Slot-FruitParty-v1.1.0.zip",
+     "file": "HF-Slot-FruitParty-v1.1.0.zip",
+     "size": 13626309
+    }
+   ],
+   "hosts": [
+    "ae"
+   ],
+   "guide": [
+    "Скачай і розпакуй архів у постійну папку.",
+    "After Effects → File › Scripts › Run Script File… → build_slot.jsx.",
+    "Вибери сітку й розмір символів — вийде композиція render 1080×1920 з барабанами, що крутяться.",
+    "Сітку змінюють слайдери Reels і Rows на шарі Controls, прокрути — ключі шару «Null 2» у композиції Slot."
+   ]
+  },
+  {
+   "id": "slot-gravity-bonanza",
+   "kind": "tpl",
+   "status": "release",
+   "order": 48,
+   "name": "Слот: Gravity Bonanza",
+   "desc": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "symbols": {
+    "img": "slots/gravity-bonanza.webp",
+    "count": 9
+   },
+   "releases": [
+    {
+     "v": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gravity-bonanza/HF-Slot-GravityBonanza-v1.1.0.zip",
+     "file": "HF-Slot-GravityBonanza-v1.1.0.zip",
+     "size": 3081915
     }
    ],
    "hosts": [

@@ -963,7 +963,7 @@
     {
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.1.0.zip",
-     "size": 367448
+     "size": 859329
     }
    ],
    "releases": [
@@ -975,7 +975,7 @@
       {
        "label": "Завантажити",
        "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.1.0.zip",
-       "size": 367448
+       "size": 859329
       }
      ]
     }
@@ -1372,6 +1372,690 @@
        "label": "Завантажити",
        "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.1.0.zip",
        "size": 3000303
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-big-bass-bonanza",
+   "name": "Слот: Big Bass Bonanza",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-big-bass-bonanza/HF-Slot-BigBassBonanza-v1.1.0.zip",
+     "size": 6087605
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-big-bass-bonanza/HF-Slot-BigBassBonanza-v1.1.0.zip",
+       "size": 6087605
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-buffalo-king",
+   "name": "Слот: Buffalo King",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-buffalo-king/HF-Slot-BuffaloKing-v1.1.0.zip",
+     "size": 8973083
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-buffalo-king/HF-Slot-BuffaloKing-v1.1.0.zip",
+       "size": 8973083
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-cowboy-coins",
+   "name": "Слот: Cowboy Coins",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-cowboy-coins/HF-Slot-CowboyCoins-v1.1.0.zip",
+     "size": 13863918
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-cowboy-coins/HF-Slot-CowboyCoins-v1.1.0.zip",
+       "size": 13863918
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-da-vincis-treasure",
+   "name": "Слот: Da Vinci's Treasure",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-da-vincis-treasure/HF-Slot-DaVincisTreasure-v1.1.0.zip",
+     "size": 13269048
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-da-vincis-treasure/HF-Slot-DaVincisTreasure-v1.1.0.zip",
+       "size": 13269048
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-fire-stampede",
+   "name": "Слот: Fire Stampede",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fire-stampede/HF-Slot-FireStampede-v1.1.0.zip",
+     "size": 9963570
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fire-stampede/HF-Slot-FireStampede-v1.1.0.zip",
+       "size": 9963570
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-gates-of-olympus",
+   "name": "Слот: Gates of Olympus",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus/HF-Slot-GatesOfOlympus-v1.1.0.zip",
+     "size": 12233120
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus/HF-Slot-GatesOfOlympus-v1.1.0.zip",
+       "size": 12233120
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-gold-rush",
+   "name": "Слот: Gold Rush",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gold-rush/HF-Slot-GoldRush-v1.1.0.zip",
+     "size": 14350154
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gold-rush/HF-Slot-GoldRush-v1.1.0.zip",
+       "size": 14350154
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-great-rhino",
+   "name": "Слот: Great Rhino",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-great-rhino/HF-Slot-GreatRhino-v1.1.0.zip",
+     "size": 19502884
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-great-rhino/HF-Slot-GreatRhino-v1.1.0.zip",
+       "size": 19502884
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-madame-destiny",
+   "name": "Слот: Madame Destiny",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-madame-destiny/HF-Slot-MadameDestiny-v1.1.0.zip",
+     "size": 18988632
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-madame-destiny/HF-Slot-MadameDestiny-v1.1.0.zip",
+       "size": 18988632
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-sugar-rush",
+   "name": "Слот: Sugar Rush",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sugar-rush/HF-Slot-SugarRush-v1.1.0.zip",
+     "size": 11054400
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sugar-rush/HF-Slot-SugarRush-v1.1.0.zip",
+       "size": 11054400
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-sweet-bonanza",
+   "name": "Слот: Sweet Bonanza",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza/HF-Slot-SweetBonanza-v1.1.0.zip",
+     "size": 14077156
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza/HF-Slot-SweetBonanza-v1.1.0.zip",
+       "size": 14077156
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-the-dog-house-megaways",
+   "name": "Слот: The Dog House Megaways",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-the-dog-house-megaways/HF-Slot-TheDogHouseMegaways-v1.1.0.zip",
+     "size": 12513231
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-the-dog-house-megaways/HF-Slot-TheDogHouseMegaways-v1.1.0.zip",
+       "size": 12513231
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-wolf-gold",
+   "name": "Слот: Wolf Gold",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-wolf-gold/HF-Slot-WolfGold-v1.1.0.zip",
+     "size": 6337042
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-wolf-gold/HF-Slot-WolfGold-v1.1.0.zip",
+       "size": 6337042
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-lucky-dragons",
+   "name": "Слот: Lucky Dragons",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-lucky-dragons/HF-Slot-LuckyDragons-v1.1.0.zip",
+     "size": 7431215
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-lucky-dragons/HF-Slot-LuckyDragons-v1.1.0.zip",
+       "size": 7431215
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-3-genie-wishes",
+   "name": "Слот: 3 Genie Wishes",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-3-genie-wishes/HF-Slot-3GenieWishes-v1.1.0.zip",
+     "size": 18367961
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-3-genie-wishes/HF-Slot-3GenieWishes-v1.1.0.zip",
+       "size": 18367961
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-gates-of-olympus-1000",
+   "name": "Слот: Gates of Olympus 1000",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus-1000/HF-Slot-GatesOfOlympus1000-v1.1.0.zip",
+     "size": 12673510
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gates-of-olympus-1000/HF-Slot-GatesOfOlympus1000-v1.1.0.zip",
+       "size": 12673510
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-sweet-bonanza-1000",
+   "name": "Слот: Sweet Bonanza 1000",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza-1000/HF-Slot-SweetBonanza1000-v1.1.0.zip",
+     "size": 14339047
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sweet-bonanza-1000/HF-Slot-SweetBonanza1000-v1.1.0.zip",
+       "size": 14339047
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-fruit-party",
+   "name": "Слот: Fruit Party",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fruit-party/HF-Slot-FruitParty-v1.1.0.zip",
+     "size": 13626309
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fruit-party/HF-Slot-FruitParty-v1.1.0.zip",
+       "size": 13626309
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slot-gravity-bonanza",
+   "name": "Слот: Gravity Bonanza",
+   "type": "ae-template",
+   "type_label": "Шаблон AE",
+   "description": "Слот-гра з оригінального шаблону Phone Slot Spin (Pragmatic Play): 9 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
+   "hosts": [
+    "After Effects"
+   ],
+   "version": "1.1.0",
+   "date": "2026-11-23",
+   "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+   "installer": false,
+   "warning": null,
+   "downloads": [
+    {
+     "label": "Завантажити",
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gravity-bonanza/HF-Slot-GravityBonanza-v1.1.0.zip",
+     "size": 3081915
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Гра з оригінального шаблону, тепер окремим пакетом: build_slot.jsx збирає екран гри без великого шаблону.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-gravity-bonanza/HF-Slot-GravityBonanza-v1.1.0.zip",
+       "size": 3081915
       }
      ]
     }

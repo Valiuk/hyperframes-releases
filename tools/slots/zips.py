@@ -32,6 +32,8 @@ for m in M:
     tid='slot-'+m['id']; fname='HF-Slot-%s-v%s.zip'%(''.join(w.capitalize() for w in m['id'].split('-')),V)
     dst=os.path.join(REPO,'files',tid); os.makedirs(dst,exist_ok=True); zp=os.path.join(dst,fname)
     top=fname[:-4]; d=OUT+'/'+m['id']
+    if os.path.exists(zp):
+        out.append(dict(id=m['id'],tool=tid,file=fname,size=os.path.getsize(zp))); continue
     with zipfile.ZipFile(zp,'w',zipfile.ZIP_DEFLATED) as z:
         z.write('/home/claude/hyperframes-releases/tools/slots/build_slot.jsx', top+'/build_slot.jsx')
         z.write('/home/claude/hyperframes-releases/tools/slots/install_slot.jsx', top+'/install_slot.jsx')
