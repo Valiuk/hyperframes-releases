@@ -910,12 +910,17 @@
    ],
    "version": "1.0.0",
    "date": "2026-11-23",
-   "notes": "Скрипти шаблону: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
+   "notes": "Шаблон After Effects (зібраний Collect Files, 1,2 ГБ) і скрипти до нього: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
    "installer": false,
    "warning": "",
    "downloads": [
     {
-     "label": "Завантажити",
+     "label": "Шаблон .aep",
+     "url": "https://github.com/Valiuk/hyperframes-releases/releases/download/phone-slot-spin-v1.0.0/phone.slot.spin.v1.converted.folder.zip",
+     "size": 1232076744
+    },
+    {
+     "label": "Скрипти шаблону",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-slot-spin/HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
      "size": 20174
     }
@@ -924,10 +929,15 @@
     {
      "version": "1.0.0",
      "date": "2026-11-23",
-     "notes": "Скрипти шаблону: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
+     "notes": "Шаблон After Effects (зібраний Collect Files, 1,2 ГБ) і скрипти до нього: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
      "downloads": [
       {
-       "label": "Завантажити",
+       "label": "Шаблон .aep",
+       "url": "https://github.com/Valiuk/hyperframes-releases/releases/download/phone-slot-spin-v1.0.0/phone.slot.spin.v1.converted.folder.zip",
+       "size": 1232076744
+      },
+      {
+       "label": "Скрипти шаблону",
        "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-slot-spin/HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
        "size": 20174
       }

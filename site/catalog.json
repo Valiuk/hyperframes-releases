@@ -575,7 +575,7 @@
    "name": "Phone Slot Spin — шаблон слот-машини",
    "desc": "Шаблон After Effects для реклами слотів: барабани, що крутяться в телефоні, перемикач ігор, сітки від 3×3 до 7×7, рамки під кожну сітку. Ігри (слоти) і прокрути додаються окремо.",
    "guide": [
-    "Відкрий шаблон Phone Slot Spin в After Effects.",
+    "Скачай шаблон, розпакуй і відкрий .aep в After Effects (усі футажі вже поруч у папці).",
     "Скачай потрібний слот нижче, розпакуй і запусти install_slot.jsx (File › Scripts › Run Script File…). Слот з’явиться на слайдері Slot у композиції render.",
     "Сітку задають слайдери Reels (барабани) і Rows (ряди) там само — рамка перемикається сама.",
     "Свої прокрути й виграшні комбінації — у «Конструкторі прокрутів».",
@@ -585,10 +585,23 @@
     {
      "v": "1.0.0",
      "date": "2026-11-23",
-     "notes": "Скрипти шаблону: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
-     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-slot-spin/HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
-     "file": "HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
-     "size": 20174
+     "notes": "Шаблон After Effects (зібраний Collect Files, 1,2 ГБ) і скрипти до нього: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/phone-slot-spin-v1.0.0/phone.slot.spin.v1.converted.folder.zip",
+     "size": 1232076744,
+     "files": [
+      {
+       "label": "Шаблон .aep",
+       "file": "phone.slot.spin.v1.converted.folder.zip",
+       "size": 1232076744,
+       "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/phone-slot-spin-v1.0.0/phone.slot.spin.v1.converted.folder.zip"
+      },
+      {
+       "label": "Скрипти шаблону",
+       "file": "HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
+       "size": 20174,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-slot-spin/HF-Phone-Slot-Spin-Scripts-v1.0.0.zip"
+      }
+     ]
     }
    ],
    "warn": "",
