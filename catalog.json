@@ -884,6 +884,10 @@
      "size": 3337
     }
    ],
+   "video": {
+    "url": "https://valiuk.github.io/hyperframes-releases/site/videos/extract-layers.mp4",
+    "label": "Як працює"
+   },
    "releases": [
     {
      "version": "1.0.0",
