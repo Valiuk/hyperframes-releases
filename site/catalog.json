@@ -1,7 +1,7 @@
 {
  "site": {
   "channel": "",
-  "updated": "2026-11-21"
+  "updated": "2026-11-23"
  },
  "tools": [
   {
@@ -375,9 +375,30 @@
    "kind": "app",
    "status": "release",
    "name": "YT Fragment",
-   "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту.",
+   "desc": "Вирізає фрагменти з YouTube: плеєр, таймлайн, маркери входу/виходу, Gemini розставляє маркери з тексту. Плагін для AE і Premiere працює лише разом із програмою — качай обидва.",
    "link": "",
    "releases": [
+    {
+     "v": "1.0.1",
+     "date": "2026-11-23",
+     "notes": "Плагін працює лише разом із програмою: скачай обидва архіви, розпакуй в одну папку й запусти install.bat — він поставить і панель, і програму.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip",
+     "size": 296439909,
+     "files": [
+      {
+       "label": "Програма для Windows",
+       "file": "YT.Fragment.zip",
+       "size": 296439909,
+       "link": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip"
+      },
+      {
+       "label": "Плагін AE + Premiere",
+       "file": "YT-Fragment-AE-v1.0.1.zip",
+       "size": 12890,
+       "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.1.zip"
+      }
+     ]
+    },
     {
      "v": "1.0.0",
      "date": "2026-11-20",
