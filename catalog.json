@@ -24,6 +24,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-kit/AE-Kit-v1.0.0.zip",
      "size": 29818
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-kit/AE-Kit-v1.0.0.zip",
+       "size": 29818
+      }
+     ]
+    }
    ]
   },
   {
@@ -45,6 +59,32 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/sync-lip/Sync-Lip-v1.1.0.zip",
      "size": 63801
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.1.0",
+     "date": "2026-11-23",
+     "notes": "Новий інтерфейс: три вкладки й одна кнопка «Запустити ліпсінк» — панель сама вирішує, брати файли напряму чи рендерити комп. Мітки обираються кольором. Виправлено повторний ліпсінк: збіги назв файлів, два голоси в звуці, попередній результат як джерело.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/sync-lip/Sync-Lip-v1.1.0.zip",
+       "size": 63801
+      }
+     ]
+    },
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/sync-lip/Sync-Lip-v1.0.0.zip",
+       "size": 59331
+      }
+     ]
     }
    ]
   },
@@ -68,6 +108,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/scribe-subs/AE-Transcribe-v1.0.0.zip",
      "size": 49538
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/scribe-subs/AE-Transcribe-v1.0.0.zip",
+       "size": 49538
+      }
+     ]
+    }
    ]
   },
   {
@@ -89,6 +143,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/currency-fiddler/Currency-Fiddler-v1.0.0.zip",
      "size": 32024
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/currency-fiddler/Currency-Fiddler-v1.0.0.zip",
+       "size": 32024
+      }
+     ]
     }
    ]
   },
@@ -112,6 +180,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/smart-rename/Smart-Rename-v1.1.1.zip",
      "size": 30873
     }
+   ],
+   "releases": [
+    {
+     "version": "1.1.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/smart-rename/Smart-Rename-v1.1.1.zip",
+       "size": 30873
+      }
+     ]
+    }
    ]
   },
   {
@@ -133,6 +215,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/hf-elastic/Hyperframes-Elastic-v1.0.0.zip",
      "size": 15998
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/hf-elastic/Hyperframes-Elastic-v1.0.0.zip",
+       "size": 15998
+      }
+     ]
     }
    ]
   },
@@ -156,6 +252,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/asset-library/Hyperframes-Library-v1.0.0.zip",
      "size": 21599
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/asset-library/Hyperframes-Library-v1.0.0.zip",
+       "size": 21599
+      }
+     ]
+    }
    ]
   },
   {
@@ -177,6 +287,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/spine-export/Spine-Export-v1.0.0.zip",
      "size": 345125
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/spine-export/Spine-Export-v1.0.0.zip",
+       "size": 345125
+      }
+     ]
     }
    ]
   },
@@ -200,6 +324,32 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.4.1.zip",
      "size": 20974
     }
+   ],
+   "releases": [
+    {
+     "version": "0.4.1",
+     "date": "2026-11-21",
+     "notes": "Камера-матч (м'якість, зерно, насиченість, баланс білого), motion blur від піна, затемнення від нахилу, маска світіння, розумний bloom для світлих інтерфейсів. Швидка збірка й запікання авто-значень без зависань. В архіві install.bat.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.4.1.zip",
+       "size": 20974
+      }
+     ]
+    },
+    {
+     "version": "0.3.2",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-insert/HF-Screen-Fit-v0.3.2.zip",
+       "size": 18798
+      }
+     ]
+    }
    ]
   },
   {
@@ -221,6 +371,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/split-screen/HF-Split-Screen-v1.0.0.zip",
      "size": 10481
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/split-screen/HF-Split-Screen-v1.0.0.zip",
+       "size": 10481
+      }
+     ]
     }
    ]
   },
@@ -244,6 +408,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-upscale/Hyperframes-Upscale-AE-v1.0.0.zip",
      "size": 57348660
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ae-upscale/Hyperframes-Upscale-AE-v1.0.0.zip",
+       "size": 57348660
+      }
+     ]
+    }
    ]
   },
   {
@@ -265,6 +443,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ai-assistant/Hyperframes-Agent-v1.0.1.zip",
      "size": 31915
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/ai-assistant/Hyperframes-Agent-v1.0.1.zip",
+       "size": 31915
+      }
+     ]
     }
    ]
   },
@@ -289,6 +481,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/iyo-spaces/iyo-Spaces-v1.4.0.zip",
      "size": 37021
     }
+   ],
+   "releases": [
+    {
+     "version": "1.4.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/iyo-spaces/iyo-Spaces-v1.4.0.zip",
+       "size": 37021
+      }
+     ]
+    }
    ]
   },
   {
@@ -310,6 +516,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/propainter/HF-ProPainter-v1.0.0.zip",
      "size": 21658
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/propainter/HF-ProPainter-v1.0.0.zip",
+       "size": 21658
+      }
+     ]
     }
    ]
   },
@@ -333,6 +553,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.1.zip",
      "size": 77208
     }
+   ],
+   "releases": [
+    {
+     "version": "0.17.1",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.1.zip",
+       "size": 77208
+      }
+     ]
+    }
    ]
   },
   {
@@ -355,6 +589,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/remove-bg/HF-RemoveBG-v1.0.0.zip",
      "size": 9176
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/remove-bg/HF-RemoveBG-v1.0.0.zip",
+       "size": 9176
+      }
+     ]
+    }
    ]
   },
   {
@@ -376,6 +624,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/facecut/FaceCut-v1.0.0.zip",
      "size": 20293
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/facecut/FaceCut-v1.0.0.zip",
+       "size": 20293
+      }
+     ]
     }
    ]
   },
@@ -405,6 +667,42 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.1.zip",
      "size": 12890
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.1",
+     "date": "2026-11-23",
+     "notes": "Плагін працює лише разом із програмою: скачай обидва архіви, розпакуй в одну папку й запусти install.bat — він поставить і панель, і програму.",
+     "downloads": [
+      {
+       "label": "Програма для Windows",
+       "url": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip",
+       "size": 296439909
+      },
+      {
+       "label": "Плагін AE + Premiere",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.1.zip",
+       "size": 12890
+      }
+     ]
+    },
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Програма для Windows 10/11: розпакуй і запусти «YT Fragment.exe». Плагін для After Effects — окремо, з install.bat.",
+     "downloads": [
+      {
+       "label": "Програма для Windows",
+       "url": "https://github.com/Valiuk/hyperframes-releases/releases/download/yt-fragment-v1.0.0/YT.Fragment.zip",
+       "size": 296439909
+      },
+      {
+       "label": "Плагін AE",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/yt-fragment/YT-Fragment-AE-v1.0.0.zip",
+       "size": 12459
+      }
+     ]
+    }
    ]
   },
   {
@@ -425,6 +723,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/compressor/VideoCompressor-v1.0.0.zip",
      "size": 45311150
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Програма для Windows 10/11, один exe без встановлення.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/compressor/VideoCompressor-v1.0.0.zip",
+       "size": 45311150
+      }
+     ]
+    }
    ]
   },
   {
@@ -444,6 +756,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v1.0.0.zip",
      "size": 20025
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Один HTML-файл, відкривається в браузері. Потрібен свій ключ Gemini API.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v1.0.0.zip",
+       "size": 20025
+      }
+     ]
     }
    ]
   },
@@ -475,6 +801,30 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Facebook-Mockup-v1.0.0.zip",
      "size": 46061
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Три окремі HTML-генератори: Telegram, Instagram, Facebook. Експорт у PNG.",
+     "downloads": [
+      {
+       "label": "Telegram",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Telegram-Mockup-v1.0.0.zip",
+       "size": 1055493
+      },
+      {
+       "label": "Instagram",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Instagram-Mockup-v1.0.0.zip",
+       "size": 45973
+      },
+      {
+       "label": "Facebook",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/chat-mockups/Facebook-Mockup-v1.0.0.zip",
+       "size": 46061
+      }
+     ]
+    }
    ]
   },
   {
@@ -497,6 +847,20 @@
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/gemini-translate/Gemini-Translate-v1.0.0.zip",
      "size": 16098
     }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/gemini-translate/Gemini-Translate-v1.0.0.zip",
+       "size": 16098
+      }
+     ]
+    }
    ]
   },
   {
@@ -518,6 +882,20 @@
      "label": "Завантажити",
      "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/extract-layers/ExtractLayers-v1.0.0.zip",
      "size": 3337
+    }
+   ],
+   "releases": [
+    {
+     "version": "1.0.0",
+     "date": "2026-11-20",
+     "notes": "Скрипт для After Effects (.jsx).",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/extract-layers/ExtractLayers-v1.0.0.zip",
+       "size": 3337
+      }
+     ]
     }
    ]
   }

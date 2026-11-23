@@ -17,6 +17,7 @@ https://raw.githubusercontent.com/Valiuk/hyperframes-releases/main/catalog.json
   - `version`, `date` (YYYY-MM-DD), `notes` — що нового в останній версії;
   - `installer` — `true`, якщо в архіві є `install.bat`;
   - `warning` — важливе попередження або `null`;
-  - `downloads[]` — `{label, url, size}`; `url` завжди починається з `https://github.com/`, `size` у байтах.
+  - `downloads[]` — `{label, url, size}`; `url` завжди починається з `https://github.com/`, `size` у байтах;
+  - `releases[]` — історія версій, від найновішої: `{version, date, notes, downloads[]}` (перший елемент = поточна версія).
 
 Поля можуть додаватися, але наявні не перейменовуються й не видаляються без зміни `schema`.

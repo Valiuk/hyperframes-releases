@@ -19,3 +19,9 @@
 ## Правки Івана на сайті
 Власник редагує каталог прямо на сторінці (кнопка «Редагувати»): зміни лежать у базі артефакту, документ `overrides/main` = `{deleted:{id:true}, edits:{id:{name,kind,status,desc,hidden,hideFiles:[file]}}}`. Відвідувачі, що увійшли в Claude, бачать їх одразу; вбудований у HTML каталог — ні.
 Перед кожним оновленням сайту: прочитати `overrides/main` (db_get), перенести правки в `site/catalog.json` (видалені — прибрати з `tools`), закомітити, потім очистити документ (db_write set `{deleted:{},edits:{}}`) і опублікувати сторінку.
+
+## Obriy / SynkVela (читає кореневий catalog.json раз на годину)
+- Сервер читає лише catalog.json; архіви качає браузер, редіректи GitHub дозволяти не треба.
+- Додаткові файли каталогу: поле `"include": ["https://raw.githubusercontent.com/Valiuk/hyperframes-releases/main/<файл>.json"]`, до 10, лише з цього репо.
+- Історія версій: `releases[{version,date,notes,downloads}]` — уже генерується build.py.
+- Відео-пояснення: коли будуть для плагінів — додати в публічний каталог поле `video` з абсолютним https-URL (напр. raw.githubusercontent.com/.../site/videos/<id>.mp4) і сказати Івану повідомити Obriy.

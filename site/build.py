@@ -12,6 +12,9 @@ print(len(d['tools']))
 TYPE={'ae':('ae-plugin','Плагін AE'),'app':('app','Програма'),'web':('web-tool','Веб-інструмент'),'tpl':('ae-template','Шаблон AE')}
 HOST={'ae':'After Effects','pr':'Premiere Pro'}
 def rel_sorted(t): return sorted([r for r in t.get('releases',[]) if r.get('v')],key=lambda r:r.get('date',''),reverse=True)
+def dl_of(r):
+    fs=r['files'] if len(r.get('files',[]))>1 else [{'label':'Завантажити','link':r.get('link'),'size':r.get('size')}]
+    return [{'label':f.get('label') or 'Завантажити','url':f['link'],'size':f.get('size')} for f in fs if str(f.get('link','')).startswith('https://github.com/')]
 out=[]
 for t in d['tools']:
     if t.get('hidden'): continue
@@ -26,7 +29,8 @@ for t in d['tools']:
     out.append({'id':t['id'],'name':t['name'],'type':TYPE[t['kind']][0],'type_label':TYPE[t['kind']][1],
       'description':t.get('desc',''),'hosts':[HOST[h] for h in t.get('hosts',[])],
       'version':r['v'],'date':r.get('date'),'notes':r.get('notes',''),
-      'installer':installer,'warning':t.get('warn'),'downloads':dls})
+      'installer':installer,'warning':t.get('warn'),'downloads':dls,
+      'releases':[{'version':x['v'],'date':x.get('date'),'notes':x.get('notes',''),'downloads':dl_of(x)} for x in rs if dl_of(x)]})
 pub={'schema':1,'name':'Hyperframes — інструменти','updated':d['site'].get('updated'),
      'page':'https://claude.ai/artifact/LkP7XP5o5kyAjJY2CzoPMj','tools':out}
 json.dump(pub,open('../catalog.json','w',encoding='utf8'),ensure_ascii=False,indent=1)
