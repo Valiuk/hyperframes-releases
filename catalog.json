@@ -901,10 +901,10 @@
   },
   {
    "id": "phone-slot-spin",
-   "name": "Phone Slot Spin — шаблон слот-машини",
+   "name": "Phone Slot Spin — повний шаблон",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Шаблон After Effects для реклами слотів: барабани, що крутяться в телефоні, перемикач ігор, сітки від 3×3 до 7×7, рамки під кожну сітку. Ігри (слоти) і прокрути додаються окремо.",
+   "description": "Повна версія з телефоном, інтерфейсом гри й 20+ вбудованими іграми (1,2 ГБ). Для одного слота вона не потрібна — бери архів слота: його скрипт збирає екран гри сам.",
    "hosts": [
     "After Effects"
    ],
@@ -954,28 +954,28 @@
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Конструктор (HTML) з усіма слотами, скрипт для AE і приклад — прокрути як в оригінальному шаблоні.",
+   "notes": "Працює з проєктами, зібраними build_slot.jsx, і з повним шаблоном. Конструктор з усіма слотами, скрипт для AE і приклад.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.0.0.zip",
-     "size": 367369
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.1.0.zip",
+     "size": 367448
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Конструктор (HTML) з усіма слотами, скрипт для AE і приклад — прокрути як в оригінальному шаблоні.",
+     "notes": "Працює з проєктами, зібраними build_slot.jsx, і з повним шаблоном. Конструктор з усіма слотами, скрипт для AE і приклад.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.0.0.zip",
-       "size": 367369
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.1.0.zip",
+       "size": 367448
       }
      ]
     }
@@ -986,32 +986,32 @@
    "name": "Слот: Coin Strike",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 15 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 15 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-strike/HF-Slot-CoinStrike-v1.0.0.zip",
-     "size": 16743811
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-strike/HF-Slot-CoinStrike-v1.1.0.zip",
+     "size": 16749257
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-strike/HF-Slot-CoinStrike-v1.0.0.zip",
-       "size": 16743811
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-strike/HF-Slot-CoinStrike-v1.1.0.zip",
+       "size": 16749257
       }
      ]
     }
@@ -1022,32 +1022,32 @@
    "name": "Слот: Pink Joker",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 16 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 16 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-pink-joker/HF-Slot-PinkJoker-v1.0.0.zip",
-     "size": 17178261
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-pink-joker/HF-Slot-PinkJoker-v1.1.0.zip",
+     "size": 17183705
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-pink-joker/HF-Slot-PinkJoker-v1.0.0.zip",
-       "size": 17178261
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-pink-joker/HF-Slot-PinkJoker-v1.1.0.zip",
+       "size": 17183705
       }
      ]
     }
@@ -1058,32 +1058,32 @@
    "name": "Слот: Coin Volcano",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 8 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 8 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-volcano/HF-Slot-CoinVolcano-v1.0.0.zip",
-     "size": 19321019
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-volcano/HF-Slot-CoinVolcano-v1.1.0.zip",
+     "size": 19326467
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-volcano/HF-Slot-CoinVolcano-v1.0.0.zip",
-       "size": 19321019
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-volcano/HF-Slot-CoinVolcano-v1.1.0.zip",
+       "size": 19326467
       }
      ]
     }
@@ -1094,32 +1094,32 @@
    "name": "Слот: 40 Burning Hot",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 11 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-burning-hot-40/HF-Slot-BurningHot40-v1.0.0.zip",
-     "size": 3035086
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-burning-hot-40/HF-Slot-BurningHot40-v1.1.0.zip",
+     "size": 3040535
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-burning-hot-40/HF-Slot-BurningHot40-v1.0.0.zip",
-       "size": 3035086
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-burning-hot-40/HF-Slot-BurningHot40-v1.1.0.zip",
+       "size": 3040535
       }
      ]
     }
@@ -1130,32 +1130,32 @@
    "name": "Слот: Book of Ra",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 10 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 10 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-book-of-ra/HF-Slot-BookOfRa-v1.0.0.zip",
-     "size": 5668231
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-book-of-ra/HF-Slot-BookOfRa-v1.1.0.zip",
+     "size": 5673672
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-book-of-ra/HF-Slot-BookOfRa-v1.0.0.zip",
-       "size": 5668231
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-book-of-ra/HF-Slot-BookOfRa-v1.1.0.zip",
+       "size": 5673672
       }
      ]
     }
@@ -1166,32 +1166,32 @@
    "name": "Слот: Fortune Garuda 500",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 14 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 14 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-garuda-500/HF-Slot-FortuneGaruda500-v1.0.0.zip",
-     "size": 2947861
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-garuda-500/HF-Slot-FortuneGaruda500-v1.1.0.zip",
+     "size": 2953319
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-garuda-500/HF-Slot-FortuneGaruda500-v1.0.0.zip",
-       "size": 2947861
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-garuda-500/HF-Slot-FortuneGaruda500-v1.1.0.zip",
+       "size": 2953319
       }
      ]
     }
@@ -1202,32 +1202,32 @@
    "name": "Слот: Fortune Tiger",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 7 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 7 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-tiger/HF-Slot-FortuneTiger-v1.0.0.zip",
-     "size": 2825390
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-tiger/HF-Slot-FortuneTiger-v1.1.0.zip",
+     "size": 2830839
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-tiger/HF-Slot-FortuneTiger-v1.0.0.zip",
-       "size": 2825390
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-tiger/HF-Slot-FortuneTiger-v1.1.0.zip",
+       "size": 2830839
       }
      ]
     }
@@ -1238,32 +1238,32 @@
    "name": "Слот: Mystic Fortune",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 12 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 12 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-mystic-fortune/HF-Slot-MysticFortune-v1.0.0.zip",
-     "size": 1586885
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-mystic-fortune/HF-Slot-MysticFortune-v1.1.0.zip",
+     "size": 1592336
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-mystic-fortune/HF-Slot-MysticFortune-v1.0.0.zip",
-       "size": 1586885
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-mystic-fortune/HF-Slot-MysticFortune-v1.1.0.zip",
+       "size": 1592336
       }
      ]
     }
@@ -1274,32 +1274,32 @@
    "name": "Слот: Shining Crown",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 11 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-shining-crown/HF-Slot-ShiningCrown-v1.0.0.zip",
-     "size": 2303526
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-shining-crown/HF-Slot-ShiningCrown-v1.1.0.zip",
+     "size": 2308975
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-shining-crown/HF-Slot-ShiningCrown-v1.0.0.zip",
-       "size": 2303526
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-shining-crown/HF-Slot-ShiningCrown-v1.1.0.zip",
+       "size": 2308975
       }
      ]
     }
@@ -1310,32 +1310,32 @@
    "name": "Слот: Double Bubble",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 12 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 12 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-double-bubble/HF-Slot-DoubleBubble-v1.0.0.zip",
-     "size": 1639579
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-double-bubble/HF-Slot-DoubleBubble-v1.1.0.zip",
+     "size": 1645029
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-double-bubble/HF-Slot-DoubleBubble-v1.0.0.zip",
-       "size": 1639579
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-double-bubble/HF-Slot-DoubleBubble-v1.1.0.zip",
+       "size": 1645029
       }
      ]
     }
@@ -1346,32 +1346,32 @@
    "name": "Слот: Sun of Egypt",
    "type": "ae-template",
    "type_label": "Шаблон AE",
-   "description": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "description": "Слот-гра для After Effects: 11 символів, фон, лого, рамки під 25 сіток. Скрипт сам збирає екран гри з барабанами.",
    "hosts": [
     "After Effects"
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "date": "2026-11-23",
-   "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+   "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.0.0.zip",
-     "size": 2994858
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.1.0.zip",
+     "size": 3000303
     }
    ],
    "releases": [
     {
-     "version": "1.0.0",
+     "version": "1.1.0",
      "date": "2026-11-23",
-     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "notes": "Скрипт build_slot.jsx збирає екран гри з нуля в новому проєкті — великий шаблон не потрібен. Для повного шаблону — install_slot.jsx.",
      "downloads": [
       {
        "label": "Завантажити",
-       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.0.0.zip",
-       "size": 2994858
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.1.0.zip",
+       "size": 3000303
       }
      ]
     }
