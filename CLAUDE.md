@@ -12,7 +12,7 @@
    GitHub Releases з сесії Claude недоступні (403), тому файл кладемо в репо: `files/<tool-id>/<Назва>-v<версія>.zip` (до 100 МБ на файл).
    Файли понад 100 МБ (програми) Іван сам завантажує в GitHub Releases (тег `<tool-id>-v<версія>`); посилання беремо через `gh api repos/Valiuk/hyperframes-releases/releases`. Кілька файлів в одному релізі — поле `files: [{label, file, size, link}]`.
 3. Пряме посилання: `https://github.com/Valiuk/hyperframes-releases/raw/main/files/<tool-id>/<файл>`
-4. У `site/catalog.json` додати в `releases` інструмента `{v, date (YYYY-MM-DD), notes, link}`; поставити статус `release`; оновити `site.updated`. Новий інструмент — новий об'єкт у `tools` (`kind`: ae | app | web | tpl). Червоне попередження на картці — поле `warn`. Для плагінів — `hosts`: ["ae"] або ["ae","pr"] за `Host Name` у CSXS/manifest.xml (PPRO = Premiere); вкладка «Працюють у Premiere» фільтрує за `pr`.
+4. У `site/catalog.json` додати в `releases` інструмента `{v, date (YYYY-MM-DD), notes, link}`; поставити статус `release`; оновити `site.updated`. Новий інструмент — новий об'єкт у `tools` (`kind`: ae | app | web | tpl). Червоне попередження на картці — поле `warn`. Анімоване відео-пояснення (показ при наведенні) — поле `video: "videos/<id>.mp4"`; файл лежить у `site/videos/` і публікується разом з index.html (publish_files, as `videos/<id>.mp4`). Шаблон і рендер — `tools/videos/` (HTML-сцена з render(t), rec.py → mp4 720×450, 30 fps). Для плагінів — `hosts`: ["ae"] або ["ae","pr"] за `Host Name` у CSXS/manifest.xml (PPRO = Premiere); вкладка «Працюють у Premiere» фільтрує за `pr`.
 5. `cd site && python3 build.py`, опублікувати `site/index.html` в артефакт (publish_files, slug вище, mode patch).
 6. Закомітити й запушити зміни в цей репозиторій.
 
