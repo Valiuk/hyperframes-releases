@@ -25,3 +25,11 @@
 - Додаткові файли каталогу: поле `"include": ["https://raw.githubusercontent.com/Valiuk/hyperframes-releases/main/<файл>.json"]`, до 10, лише з цього репо.
 - Історія версій: `releases[{version,date,notes,downloads}]` — уже генерується build.py.
 - Відео-пояснення: коли будуть для плагінів — додати в публічний каталог поле `video` з абсолютним https-URL (напр. raw.githubusercontent.com/.../site/videos/<id>.mp4) і сказати Івану повідомити Obriy.
+
+## Шаблони AE: слоти для Phone Slot Spin (kind `tpl`)
+- Картки: `phone-slot-spin` (скрипти шаблону), `slot-spin-plan` (Конструктор прокрутів + apply_spin_plan.jsx), `slot-<гра>` — по одній на слот.
+- Слот = архів `files/slot-<id>/HF-Slot-<Name>-v<версія>.zip`: `install_slot.jsx` (універсальний, `tools/slots/install_slot.jsx`) + `slot.json` (layer — ім'я шару скіна в шаблоні, code — для FG_<code>, count, box, logobox, mult, frames) + `symbols/N.png` + `bg.jpg` + `logo.png` + `FrameGrids/g{C}x{R}.png` (25 сіток 3..7×3..7) + `symbols.png`.
+- НОМЕР СИМВОЛА СВЯТИЙ: N.png = Symbol_N = номер у таблиці на сайті (`site/slots/<id>.webp`, поле `symbols`) = номер у Конструкторі (мініатюри вбудовані в spin_constructor.html). Не перенумеровувати в наступних версіях — додавати лише в кінець.
+- Новий слот: символи/фон/лого від Івана → `tools/slots/` (frames.py малює тематичну рамку, якщо своєї немає) → zip → таблиця символів → запис у catalog.json → оновити Конструктор (SLOTS) і архів slot-spin-plan.
+- Поля картки: `guide` — кроки «Як користуватися»; `symbols: {img, count}` — таблиця символів (файл публікується разом з index.html як `slots/<id>.webp`). Картки з `symbols` не показуються на таймлайні.
+- Сам шаблон .aep (Collect Files) Іван завантажує в GitHub Releases (тег `phone-slot-spin-v<версія>`), посилання — другим файлом у релізі `phone-slot-spin`.

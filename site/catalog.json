@@ -566,6 +566,337 @@
     "ae"
    ],
    "video": "videos/extract-layers.mp4"
+  },
+  {
+   "id": "phone-slot-spin",
+   "kind": "tpl",
+   "status": "release",
+   "order": 0,
+   "name": "Phone Slot Spin — шаблон слот-машини",
+   "desc": "Шаблон After Effects для реклами слотів: барабани, що крутяться в телефоні, перемикач ігор, сітки від 3×3 до 7×7, рамки під кожну сітку. Ігри (слоти) і прокрути додаються окремо.",
+   "guide": [
+    "Відкрий шаблон Phone Slot Spin в After Effects.",
+    "Скачай потрібний слот нижче, розпакуй і запусти install_slot.jsx (File › Scripts › Run Script File…). Слот з’явиться на слайдері Slot у композиції render.",
+    "Сітку задають слайдери Reels (барабани) і Rows (ряди) там само — рамка перемикається сама.",
+    "Свої прокрути й виграшні комбінації — у «Конструкторі прокрутів».",
+    "Щоб віддати проєкт лише з потрібними іграми — export_variation.jsx з архіву скриптів."
+   ],
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Скрипти шаблону: легкий проєкт з вибраних слотів, відступи між барабанами, масштаб слота разом із рамкою, розмір символів, вирівнювання зупинок.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/phone-slot-spin/HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
+     "file": "HF-Phone-Slot-Spin-Scripts-v1.0.0.zip",
+     "size": 20174
+    }
+   ],
+   "warn": "",
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-spin-plan",
+   "kind": "tpl",
+   "status": "release",
+   "order": 1,
+   "name": "Конструктор прокрутів",
+   "desc": "Малюєш у браузері, що випадає в кожній клітинці після кожного прокруту, а скрипт будує це в шаблоні ключами — їх потім легко правити руками.",
+   "guide": [
+    "Встанови слот у шаблон і перемкни на нього слайдер Slot.",
+    "Відкрий spin_constructor.html і вибери той самий слот — номери символів збігаються з таблицями на цій сторінці.",
+    "Задай сітку, додай прокрути (час, тривалість, на скільки символів крутиться) і намалюй комбінації. «Грати» — прев’ю.",
+    "Натисни «Скопіювати план», запусти apply_spin_plan.jsx в After Effects і встав план."
+   ],
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Конструктор (HTML) з усіма слотами, скрипт для AE і приклад — прокрути як в оригінальному шаблоні.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-spin-plan/HF-Spin-Plan-v1.0.0.zip",
+     "file": "HF-Spin-Plan-v1.0.0.zip",
+     "size": 367369
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-coin-strike",
+   "kind": "tpl",
+   "status": "release",
+   "order": 10,
+   "name": "Слот: Coin Strike",
+   "desc": "Гра для шаблону Phone Slot Spin: 15 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/coin-strike.webp",
+    "count": 15
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-strike/HF-Slot-CoinStrike-v1.0.0.zip",
+     "file": "HF-Slot-CoinStrike-v1.0.0.zip",
+     "size": 16743811
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-pink-joker",
+   "kind": "tpl",
+   "status": "release",
+   "order": 11,
+   "name": "Слот: Pink Joker",
+   "desc": "Гра для шаблону Phone Slot Spin: 16 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/pink-joker.webp",
+    "count": 16
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-pink-joker/HF-Slot-PinkJoker-v1.0.0.zip",
+     "file": "HF-Slot-PinkJoker-v1.0.0.zip",
+     "size": 17178261
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-coin-volcano",
+   "kind": "tpl",
+   "status": "release",
+   "order": 12,
+   "name": "Слот: Coin Volcano",
+   "desc": "Гра для шаблону Phone Slot Spin: 8 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/coin-volcano.webp",
+    "count": 8
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-coin-volcano/HF-Slot-CoinVolcano-v1.0.0.zip",
+     "file": "HF-Slot-CoinVolcano-v1.0.0.zip",
+     "size": 19321019
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-burning-hot-40",
+   "kind": "tpl",
+   "status": "release",
+   "order": 13,
+   "name": "Слот: 40 Burning Hot",
+   "desc": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/burning-hot-40.webp",
+    "count": 11
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-burning-hot-40/HF-Slot-BurningHot40-v1.0.0.zip",
+     "file": "HF-Slot-BurningHot40-v1.0.0.zip",
+     "size": 3035086
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-book-of-ra",
+   "kind": "tpl",
+   "status": "release",
+   "order": 14,
+   "name": "Слот: Book of Ra",
+   "desc": "Гра для шаблону Phone Slot Spin: 10 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/book-of-ra.webp",
+    "count": 10
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-book-of-ra/HF-Slot-BookOfRa-v1.0.0.zip",
+     "file": "HF-Slot-BookOfRa-v1.0.0.zip",
+     "size": 5668231
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-fortune-garuda-500",
+   "kind": "tpl",
+   "status": "release",
+   "order": 15,
+   "name": "Слот: Fortune Garuda 500",
+   "desc": "Гра для шаблону Phone Slot Spin: 14 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/fortune-garuda-500.webp",
+    "count": 14
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-garuda-500/HF-Slot-FortuneGaruda500-v1.0.0.zip",
+     "file": "HF-Slot-FortuneGaruda500-v1.0.0.zip",
+     "size": 2947861
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-fortune-tiger",
+   "kind": "tpl",
+   "status": "release",
+   "order": 16,
+   "name": "Слот: Fortune Tiger",
+   "desc": "Гра для шаблону Phone Slot Spin: 7 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/fortune-tiger.webp",
+    "count": 7
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-fortune-tiger/HF-Slot-FortuneTiger-v1.0.0.zip",
+     "file": "HF-Slot-FortuneTiger-v1.0.0.zip",
+     "size": 2825390
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-mystic-fortune",
+   "kind": "tpl",
+   "status": "release",
+   "order": 17,
+   "name": "Слот: Mystic Fortune",
+   "desc": "Гра для шаблону Phone Slot Spin: 12 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/mystic-fortune.webp",
+    "count": 12
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-mystic-fortune/HF-Slot-MysticFortune-v1.0.0.zip",
+     "file": "HF-Slot-MysticFortune-v1.0.0.zip",
+     "size": 1586885
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-shining-crown",
+   "kind": "tpl",
+   "status": "release",
+   "order": 18,
+   "name": "Слот: Shining Crown",
+   "desc": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/shining-crown.webp",
+    "count": 11
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-shining-crown/HF-Slot-ShiningCrown-v1.0.0.zip",
+     "file": "HF-Slot-ShiningCrown-v1.0.0.zip",
+     "size": 2303526
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-double-bubble",
+   "kind": "tpl",
+   "status": "release",
+   "order": 19,
+   "name": "Слот: Double Bubble",
+   "desc": "Гра для шаблону Phone Slot Spin: 12 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/double-bubble.webp",
+    "count": 12
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-double-bubble/HF-Slot-DoubleBubble-v1.0.0.zip",
+     "file": "HF-Slot-DoubleBubble-v1.0.0.zip",
+     "size": 1639579
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
+  },
+  {
+   "id": "slot-sun-of-egypt",
+   "kind": "tpl",
+   "status": "release",
+   "order": 20,
+   "name": "Слот: Sun of Egypt",
+   "desc": "Гра для шаблону Phone Slot Spin: 11 символів, фон, лого і рамки під усі 25 сіток.",
+   "symbols": {
+    "img": "slots/sun-of-egypt.webp",
+    "count": 11
+   },
+   "releases": [
+    {
+     "v": "1.0.0",
+     "date": "2026-11-23",
+     "notes": "Розпакуй і запусти install_slot.jsx у відкритому шаблоні. Номер файлу символа = номер у таблиці й у Конструкторі прокрутів.",
+     "link": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/slot-sun-of-egypt/HF-Slot-SunOfEgypt-v1.0.0.zip",
+     "file": "HF-Slot-SunOfEgypt-v1.0.0.zip",
+     "size": 2994858
+    }
+   ],
+   "hosts": [
+    "ae"
+   ]
   }
  ]
 }
