@@ -17,7 +17,7 @@ M=[('scribe-subs',C+'ae-transcribe','AE-Transcribe','1.0.0','AE Transcribe'),
 ('remove-bg',R+'HF_RemoveBG','HF-RemoveBG','1.0.0','HF RemoveBG'),
 ('ai-assistant',R+'com.hyperframes.aeagent','Hyperframes-Agent','1.0.1','Hyperframes Agent'),
 ('spine-export',R+'com.hyperframes.spineexport','Spine-Export','1.0.0','Hyperframes Spine Export'),
-('text-styles',R+'com.hyperframes.textstyles','HF-Text-Styles','0.17.1','HF Text Styles'),
+('text-styles',R+'com.hyperframes.textstyles','HF-Text-Styles','0.17.2','HF Text Styles'),
 ('yt-fragment',R+'YTFragment','YT-Fragment-AE','1.0.0','YT Fragment'),
 ]
 BAT=r'''@echo off

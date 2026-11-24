@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "name": "Hyperframes — інструменти",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "page": "https://claude.ai/artifact/LkP7XP5o5kyAjJY2CzoPMj",
  "tools": [
   {
@@ -538,23 +538,35 @@
    "name": "Текстові стилі",
    "type": "ae-plugin",
    "type_label": "Плагін AE",
-   "description": "Велика бібліотека стилів тексту в один клік: обводки, тіні, 3D, градієнти, слот-стилі.",
+   "description": "Понад 440 стилів тексту в один клік: обводки, тіні, 3D, градієнти, глянець, слоти, мультяшні. Фон і контраст, порада Gemini.",
    "hosts": [
     "After Effects"
    ],
-   "version": "0.17.1",
-   "date": "2026-11-20",
-   "notes": "Плагін для After Effects. В архіві install.bat для встановлення в один клік.",
+   "version": "0.17.2",
+   "date": "2026-11-24",
+   "notes": "444 стилі. Нові: «Free Spins», «Квест», «Солодка вата», «Цукерка-перлина», «Глянцевий бабл», карамельні смуги, категорія «Мультяшні». Обʼєм і канти враховують масштаб шару. Новий інтерфейс з вкладками. В архіві install.bat.",
    "installer": true,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.1.zip",
-     "size": 77208
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.2.zip",
+     "size": 77484
     }
    ],
    "releases": [
+    {
+     "version": "0.17.2",
+     "date": "2026-11-24",
+     "notes": "444 стилі. Нові: «Free Spins», «Квест», «Солодка вата», «Цукерка-перлина», «Глянцевий бабл», карамельні смуги, категорія «Мультяшні». Обʼєм і канти враховують масштаб шару. Новий інтерфейс з вкладками. В архіві install.bat.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/text-styles/HF-Text-Styles-v0.17.2.zip",
+       "size": 77484
+      }
+     ]
+    },
     {
      "version": "0.17.1",
      "date": "2026-11-20",
