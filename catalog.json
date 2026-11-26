@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "name": "Hyperframes — інструменти",
- "updated": "2026-11-24",
+ "updated": "2026-11-26",
  "page": "https://claude.ai/artifact/LkP7XP5o5kyAjJY2CzoPMj",
  "tools": [
   {
@@ -756,21 +756,33 @@
    "name": "Нишпорка — пошук відео",
    "type": "web-tool",
    "type_label": "Веб-інструмент",
-   "description": "Шукає відео на YouTube за тим, що видно в кадрі, через Gemini.",
+   "description": "Шукає відео на YouTube за тим, що видно в кадрі й що звучить, через Gemini. Уміє знаходити оригінальну серію чи стрім за вирізаним фрагментом.",
    "hosts": [],
-   "version": "1.0.0",
-   "date": "2026-11-20",
-   "notes": "Один HTML-файл, відкривається в браузері. Потрібен свій ключ Gemini API.",
+   "version": "2.0.0",
+   "date": "2026-11-26",
+   "notes": "Новий режим «Джерело фрагмента»: знаходить оригінал за кліпом, зокрема за самим відео-фрагментом. Сліпий перегляд відрізків без вигаданих збігів, підказки з розділів опису, пошук на одному каналі, зрозуміліший інтерфейс з поясненнями та оцінкою вартості. Потрібні ключі Gemini API і YouTube Data API.",
    "installer": false,
    "warning": null,
    "downloads": [
     {
      "label": "Завантажити",
-     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v1.0.0.zip",
-     "size": 20025
+     "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v2.0.0.zip",
+     "size": 37866
     }
    ],
    "releases": [
+    {
+     "version": "2.0.0",
+     "date": "2026-11-26",
+     "notes": "Новий режим «Джерело фрагмента»: знаходить оригінал за кліпом, зокрема за самим відео-фрагментом. Сліпий перегляд відрізків без вигаданих збігів, підказки з розділів опису, пошук на одному каналі, зрозуміліший інтерфейс з поясненнями та оцінкою вартості. Потрібні ключі Gemini API і YouTube Data API.",
+     "downloads": [
+      {
+       "label": "Завантажити",
+       "url": "https://github.com/Valiuk/hyperframes-releases/raw/main/files/video-finder/Nyshporka-v2.0.0.zip",
+       "size": 37866
+      }
+     ]
+    },
     {
      "version": "1.0.0",
      "date": "2026-11-20",
